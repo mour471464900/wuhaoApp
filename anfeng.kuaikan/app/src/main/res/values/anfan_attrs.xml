@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!--增加属性圆角大小-->
+    <declare-styleable name="RoundRelativeLayout" >
+        <attr name="radius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ConditionView">
+        <!--网络异常提示语-->
+        <attr name="netErrorHint" format="string"/>
+        <!--网络异常图片-->
+        <attr name="netErrorIcon" format="reference"/>
+    </declare-styleable>
+</resources>

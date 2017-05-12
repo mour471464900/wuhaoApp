@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/anfan_alert_dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/af_tv_alert_title"
+        android:layout_width="match_parent"
+        android:text="@string/af_warm_hint"
+        android:textColor="@color/af_c33333"
+        android:layout_marginTop="21dp"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <!--这个区域是可以扩展的,添加其他布局 begin-->
+    <RelativeLayout
+        android:id="@+id/af_rl_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        >
+        <TextView
+            android:id="@+id/af_tv_alert_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:textSize="14sp"
+            android:textColor="@color/af_c999999"
+            tools:text="充值帐号非当前登录帐号是的是的阿斯顿\n说得对是的的阿斯顿"
+            />
+    </RelativeLayout>
+    <!--这个区域是可以扩展的,添加其他布局 end-->
+    <View
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:background="@color/af_ce7e7e7"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/af_tv_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:drawablePadding="3dp"
+            android:background="@drawable/bg_btn_cancel"
+            android:text="@string/af_cancel"
+            android:textColor="@color/af_c999999"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/af_ce7e7e7"
+            />
+        <TextView
+            android:id="@+id/af_tv_affirm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_btn_affirm"
+            android:text="@string/af_affirm"
+            android:textColor="@color/af_c06be77"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

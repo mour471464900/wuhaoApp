@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--正在加载中视图-->
+    <LinearLayout
+        android:id="@+id/ll_load"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_loading_anim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/animation_load"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/af_ca8a8a8"
+            android:text="@string/in_trying_to_load"
+            android:textSize="20sp"
+             />
+    </LinearLayout>
+
+    <!--网络正常但是加载失败视图-->
+    <LinearLayout
+        android:id="@+id/ll_load_error"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/load_error"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/btn_retry"
+            android:layout_marginTop="10dp"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_socket_retry"
+            />
+    </LinearLayout>
+
+    <!--网络异常点击按钮-->
+    <LinearLayout
+        android:id="@+id/ll_net_error"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_net_error"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/load_error"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/tv_net_error"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/af_ca8a8a8"
+            android:text="@string/click_load_hint"
+            />
+        <Button
+            android:id="@+id/btn_load"
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            style="@style/af_transparent_btn_style"
+            android:text="@string/load"
+            />
+    </LinearLayout>
+</RelativeLayout>

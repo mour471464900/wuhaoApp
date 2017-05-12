@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 绿色皮肤 -->
+    <color name="af_c424242">#424242</color>
+    <color name="af_cffffff">#FFFFFF</color>
+    <color name="progressdialog_background">#00000000</color>
+
+    <color name="anfan_defealut_bg">#f7f7f7</color>
+
+    <color name="af_cf3f3f3">#f3f3f3</color>
+    <color name="af_c23c9ae">#23c9ae</color>
+    <color name="af_c2C3E50">#2C3E50</color>
+    <color name="af_cEDEFF1">#EDEFF1</color>
+    <color name="af_cD9DDE1">#D9DDE1</color>
+
+    <color name="af_c8f8b92">#8f8b92</color>
+
+    <!--倒计时点击后的按钮背景色-->
+    <color name="af_ccccccc">#cccccc</color>
+
+    <color name="af_cBBC2CA">#BBC2CA</color>
+    <color name="af_ce5e5e5">#e5e5e5</color>
+
+    <!-- 黄色皮肤 -->
+
+    <color name="af_c3792e3">#3792e3</color>
+    <color name="af_cff3600">#ff3600</color>
+    <color name="af_c6ed23a">#6ed23a</color>
+    <color name="af_c999999">#999999</color>
+    <color name="af_cf5f5fa">#f5f5fa</color>
+
+    <color name="af_c0B0606">#0B0606</color>
+    <color name="af_cE6000000">#e6000000</color>
+    <color name="af_c000000">#cc000000</color>
+    <color name="af_c33333">#333333</color>
+    <color name="af_c303030">#303030</color>
+    <color name="af_c9E9E9E">#9E9E9E</color>
+    <color name="af_cededed">#ededed</color>
+    <color name="af_ce7e7e7">#E7E7E7</color>
+    <color name="af_cf7f7f7">#F7F7F7</color>
+    <color name="af_cDDDDDD">#DDDDDD</color>
+
+    <color name="af_c6633b5e5">#6633b5e5</color>
+    <color name="af_c666666">#666666</color>
+    <!--新版安锋的主题颜色,-->
+    <color name="af_c06be77">#06be77</color>
+    <color name="af_c3abe06">#beb806</color>
+    <color name="af_c2f2f2f">#2f2f2f</color>
+    <!--80%透明白色-->
+    <color name="af_ce6ffffff">#e6ffffff</color>
+    <color name="af_cd7dcde">#d7dcde</color>
+    <color name="af_c53a1d9">#53a1d9</color>
+    <color name="af_ca8a8a8">#a8a8a8</color>
+    <color name="af_cfff6c2">#fff6c2</color>
+    <!--绿色按钮的点击颜色-->
+    <color name="af_c05ab6b">#05ab6b</color>
+    <!--蓝色按钮的点击颜色-->
+    <color name="af_c4b91c3">#4b91c3</color>
+    <!--灰色按钮的点击颜色-->
+    <color name="af_c979797">#979797</color>
+
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anfeng.wuhao.anfengkuaikan">
+    <!-- 需要的权限，请添加到自己工程的清单文件中 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- testing -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 发送短信的权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 微信支付 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- NETWORK_PROVIDER -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:name=".base.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--阿里百川Hotfix 热更框架配置项参数包括appId,appStreet,rsa密匙  start -->
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="98996-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="edbfb3dc9e99f0d3286b6aecabf57baa" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0TpIDjp6bIwNxoxjDC8n0CfHVI8e4fkgf7qzvXkcvzbSFKA7xZMsEAkxGAln5gGdEfJmFIz6Zha6cTzma1uzj7Tksr8oFeFbzyT63z/K19lHvD6GGmJIiDDnujMj6/2cVp6vikyLUV/JWDyr4JI6DRHyHxJ3KRvivKaUhLRKTuOTTX1rrEV4P2RdxGxWmgXXinJIvo97tWDuGdxmtEjoIPryFjjJpYNcQULssoZUO/67mmbPpL0BnUXOxc1Wbv4p8SL+cS0j9wSomapO7kMuCDQM4DIfGHFWs843l3dwW4dXzXLjnDrNqB4Ni0vbFtQ0P/oTEoMDoC2B83IH4Pcx9AgMBAAECggEAZt5Es77UglHxjw2r/Otm5tIdpKprMbjqUT2McGxrVLyZdzapf9MveDQPbAm/Z3d4czxbIfg/qLr6KbeRd+OS917KNdJ9Aa3sfd2c6KW9JU9I44kZcH7vMHmlO5IawAiiuVoV2Ih1YIxkd/DjZPsGS6HxIkxscZEYJGcwDMN4S8pE4aILWPZLrAvfw7JPVOAdlWWZc+UvdAox5Z5sxXo7Li23iDW48h8enEDcrLh9wWnRTgqLVcoAN2Zu72Xhm/0aRFHDZh2oy7Q5mNkIVqTK4PIklAQkm0lWo7R+4W5JmaVyU2fT9eA7NqL1M6kU++5TVsLPEa1+I1ovGc/FKxEJCQKBgQDo0zIXtce7nQwAuKq1AuovWq91kaVzNwzpezLMzSmR6oDtK8QYIyxdjfQM3dakZbLKbcFr9jRW6Uc5hPGw1FU0fwhXI2CyhAxOFSGRsaIaS17iQtba2FHogg6F4HyvT0ORBizTNxJ5Lhx8J65ekvINS8wsWhy27RQkYKbUzz6n9wKBgQDGQR5l+5XuL1KaB8dS/f/LfAg7mGcLJpxYaarnLHZaQItPcLQr4pkW6Bg8AtAucnJ2Z5eR4Mk35Ejtb8bphW9qGGRT/NiTGPR1AL03chdS+gnS3NuRaKmzENQBnOrlp/qlUqsoIV27P48zY2nhFPSoHtw95vHctC6NrrJgXHuaKwKBgQCq5YLqZnLyYodR7DrZXQdatPz/lmXUWT8wDk8uhxWRVolGDY8FjKPfE/hkjV0lFMUU01Vbkr++X8L5FH13p5PXUbtkgsJSppyFn/sg/zsWg+ZkvF0LDCerO/O/DxVWdR8KT3cNnmn/6vnbpCDYqJHlcpKup4JWP1U+kndC09CQ5wKBgQC9L2jdss3pI/l0CRY5aS7OtAZ7MDyslGS/rd4rie9Kwqrt3MPh2PNzu3lc0uZsXEREHyixSUta7Zp2EaNENlQSb0JWL0NQY5Drkg/+N/5v7TCwqpdQVAsUWGunOmGhU8HIP3Ia8nQqekWhqS1hX4j0YbaTz61figWeqGWJtNcyTwKBgAc+RdxeeIlYlJjNHNQ7RTeZQvAtTu/fl2bd3q+zm5G4FblrIHwce1OIyUevPcgxJVS3/6yVE4xitVuVK7DO4qO6VvinkpwFptQYFTUT7uxi0xWp+yjpLSAMpp6iqHRE7Cw1nUG7CN0Ll0DyiZv7OCkXXSyDuOmZN5U31j1AO3Fa" />
+        <!--阿里百川Hotfix 热更框架配置项参数包括appId,appStreet,rsa密匙  end-->
+    </application>
+
+</manifest>

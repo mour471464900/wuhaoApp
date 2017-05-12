@@ -1,0 +1,124 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/af_c6ed23a</item>
+    </style>
+
+
+    <style name="CustomProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:minWidth">38dip</item>
+        <item name="android:maxWidth">38dip</item>
+        <item name="android:minHeight">38dip</item>
+        <item name="android:maxHeight">38dip</item>
+    </style>
+
+    <!-- logo透明样式 Theme.NoTitleBar.Fullscreen  -->
+    <style name="anfan_Transparent" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+<!--
+        <item name="android:windowFrame">@null</item>
+-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:windowFullscreen">true</item> -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">#00000000</item>
+
+    </style>
+
+
+    <style name="af_dialog" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="anfan_update">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="anfan_float_menu">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <!-- <item name="android:padding">3dp</item> -->
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+    </style>
+
+
+
+
+    <!--editText 风格 beging-->
+    <style name="anfan_editText_style">
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/af_c33333</item>
+        <item name="android:textColorHint">@color/af_c999999</item>
+    </style>
+    <!--editText 风格 end-->
+
+    <!--linearLayout  pandding 数据-->
+    <style name="af_ll_padding">
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+    </style>
+
+
+
+    <!--<style name="anfan_dialog_loading" parent="@android:style/Theme.Dialog">-->
+        <!--<item name="android:windowAnimationStyle">@null</item>-->
+        <!--&lt;!&ndash; 去黑边 &ndash;&gt;-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--&lt;!&ndash; 设置是否可滑动 &ndash;&gt;-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--&lt;!&ndash; 设置是否透明 &ndash;&gt;-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--&lt;!&ndash; 无标题 &ndash;&gt;-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--&lt;!&ndash; 背景 &ndash;&gt;-->
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <!--&lt;!&ndash; 窗口背景 &ndash;&gt;-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--&lt;!&ndash; 是否变暗 &ndash;&gt;-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+    <!--</style>-->
+
+
+
+    <style name="anfan_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- 去黑边 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置是否可滑动 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置是否透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景 -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 窗口背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--绿边中间透明按钮的样式-->
+    <style name="af_transparent_btn_style">
+        <item name="android:textColor">@color/af_c06be77</item>
+        <item name="android:background">@drawable/bg_btn_transparent</item>
+    </style>
+
+</resources>

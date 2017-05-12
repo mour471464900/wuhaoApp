@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--oneshot 为false 表示会不停的播放-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@drawable/loading_status01" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status02" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status03" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status04" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status05" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status06" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status07" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status08" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status09" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status10" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status11" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status12" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status13" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status14" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status15" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status16" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status17" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status18" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status19" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status20" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status21" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status22" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status23" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status24" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status25" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status26" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status27" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status28" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status29" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status30" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status31" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status32" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status33" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status34" android:duration="300"/>
+    <item android:drawable="@drawable/loading_status35" android:duration="300"/>
+</animation-list>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "com.anfeng.wuhao.anfengkuaikan"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                // 输出apk名称为boohee_v1.0_2015-01-15_wandoujia.apk
+                def fileName = "hotfix热更新${defaultConfig.versionName}.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories {
+        maven {
+//          百川远程仓库
+            url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.taobao.android:alisdk-hotfix:2.0.8'  // 热修复框架
+    compile 'com.android.support:design:25.2.0'       // design 包
+    compile 'com.google.code.gson:gson:2.8.0'         // gson框架
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.jakewharton:butterknife:8.5.1'       // 黄油刀
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.facebook.fresco:fresco:0.12.0'       // 图片加载框架
+    compile 'com.youth.banner:banner:1.4.9'           // 广告轮播图
+    compile 'com.lzy.net:okgo:+'                      //版本号使用 + 可以自动引用最新版  okgo
+    compile 'com.github.jdsjlzx:LRecyclerView:1.4.3'  // 拓展类的recyclerView
+}
