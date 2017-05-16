@@ -24,7 +24,10 @@ import java.util.List;
 
 import butterknife.BindView;
 
-import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_NORMAL;
+import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.CONTAINER;
+import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_EMPTY;
+import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_LOADING;
+import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_RETRY;
 
 /**
  * 作者： ${USER}
@@ -32,7 +35,7 @@ import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_NORMAL;
  * 描述：
  */
 
-public class MainFragment extends BaseFragment {
+public class MainFragment extends BaseFragment implements ConditionView.OnRetryListener{
     @BindView(R.id.ll_main)
     LinearLayout mLlMain;
     @BindView(R.id.rv_main)
@@ -71,18 +74,37 @@ public class MainFragment extends BaseFragment {
     @Override
     public void requestData() {
         initView();
+        initData();
+    }
+
+    private void initData() {
         HttpHelper.getInstance().httpGetString(URLCommon.getDayUrl(id), getContext(), new RequestCallback<String>() {
             @Override
             public void succeedOnResult(String response) {
                 DateListBean dateListBean = GsonUtils.GsonToBean(response, DateListBean.class);
                 List<DateListBean.DataBean.ComicsBean> comics = dateListBean.getData().getComics();
-                mDateAdapter.setDataList(comics);
+                if(null!=comics&&comics.size()>0){
+                    mDateAdapter.setDataList(comics);
+                    mConditionView.setDataCondition(CONTAINER);
+                }else {
+                    errorForCode(HttpHelper.SYSTEM_ERROR);
+                }
             }
+
+            @Override
+            public void errorForCode(int code) {
+                if(code==HttpHelper.NET_ERROR){ // 网络异常就有重试按钮
+                    mConditionView.setDataCondition(DATA_RETRY);
+                }else if (code==HttpHelper.SYSTEM_ERROR){
+                    mConditionView.setDataCondition(DATA_EMPTY);
+                }
+            }
+
         });
     }
 
     private void initView() {
-        mConditionView.setDataCondition(DATA_NORMAL);
+        mConditionView.setDataCondition(DATA_LOADING);
         mDateAdapter = new DateListAdapter(getContext());
         mLRecyclerViewAdapter=new LRecyclerViewAdapter(mDateAdapter);
         DividerDecoration divider = new DividerDecoration.Builder(getContext())
@@ -102,11 +124,11 @@ public class MainFragment extends BaseFragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-//        int red = (int) (Math.random() * 256);
-//        int green = (int) (Math.random() * 256);
-//        int blue = (int) (Math.random() * 256);
-//        int rgb = Color.rgb(red, green, blue);
-//        LogUtil.e(getTag(), "当前的颜色值为：" + rgb);
-//        mLlMain.setBackgroundColor(rgb);
+    }
+
+    @Override
+    public void onRetry() { // 点击重试之后视图变为加载状态
+         mConditionView.setDataCondition(DATA_LOADING);
+        initData();
     }
 }

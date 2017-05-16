@@ -22,6 +22,10 @@ public class HttpHelper {
     public static final String TAG = HttpHelper.class.getSimpleName();
     private static HttpHelper mHttpHelper;
 
+    public static final int NET_ERROR=100;
+    public static final int SYSTEM_ERROR=101;
+
+
     /**
      * 单例工厂模式
      *
@@ -51,7 +55,8 @@ public class HttpHelper {
             @Override
             public void onError(Call call, Response response, Exception e) {
                 super.onError(call, response, e);
-                checkNetWork(context, response);
+                callback.errorForCode(checkNetWork(context, response));
+
             }
         });
     }
@@ -74,7 +79,7 @@ public class HttpHelper {
             @Override
             public void onError(Call call, Response response, Exception e) {
                 super.onError(call, response, e);
-                checkNetWork(context, response);
+                callback.errorForCode(checkNetWork(context, response));
             }
         });
     }
@@ -85,13 +90,15 @@ public class HttpHelper {
      * @param context  上下文
      * @param response 回调
      */
-    private void checkNetWork(Context context, Response response) {
+    private int checkNetWork(Context context, Response response) {
         if (!NetworkUtil.isNetworkAvailable(context)) { // 网络情况不好
             LogUtil.e(TAG, "网络异常");
             ToastUtil.toastShort(context, "网络异常");
+            return  NET_ERROR;
         } else {                                        // 网络情况好
             LogUtil.e(TAG, "服务器异常");
             ToastUtil.toastShort(context, "服务器异常");
+            return  SYSTEM_ERROR;
         }
     }
 

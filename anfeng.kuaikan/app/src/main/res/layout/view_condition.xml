@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_container"
+    >
 
     <!--正在加载中视图-->
     <LinearLayout
@@ -30,9 +35,9 @@
              />
     </LinearLayout>
 
-    <!--网络正常但是加载失败视图-->
+    <!--空视图-->
     <LinearLayout
-        android:id="@+id/ll_load_error"
+        android:id="@+id/ll_empty"
         android:layout_width="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
@@ -44,13 +49,13 @@
             android:src="@drawable/load_error"
             android:layout_gravity="center_horizontal"
             />
-
-        <Button
-            android:id="@+id/btn_retry"
+        <TextView
             android:layout_marginTop="10dp"
-            android:layout_width="110dp"
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:background="@drawable/ic_socket_retry"
+            android:textColor="@color/af_ca8a8a8"
+            android:text="@string/empty_hint"
+            android:textSize="20sp"
             />
     </LinearLayout>
 
@@ -88,3 +93,4 @@
             />
     </LinearLayout>
 </RelativeLayout>
+</merge>

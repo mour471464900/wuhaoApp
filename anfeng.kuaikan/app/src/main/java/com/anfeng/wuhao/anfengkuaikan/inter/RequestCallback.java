@@ -7,4 +7,6 @@ package com.anfeng.wuhao.anfengkuaikan.inter;
 public interface RequestCallback<T> {
 
         void succeedOnResult(T response) ;
+
+        void errorForCode(int code);
 }

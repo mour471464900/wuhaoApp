@@ -14,5 +14,19 @@
         <attr name="netErrorHint" format="string"/>
         <!--网络异常图片-->
         <attr name="netErrorIcon" format="reference"/>
+        <attr name="viewCondition" >
+            <flag name="first" value="0x0"/>
+            <flag name="loading" value="0x1"/>
+            <flag name="dataNormal" value="0x2"/>
+            <flag name="networkError" value="0x3"/>
+            <flag name="noData" value="0x4"/>
+        </attr>
     </declare-styleable>
+    <declare-styleable name="FloatingBall">
+        <!--球内部显示的文字-->
+        <attr name="showTxt" format="string"/>
+        <!--球的图标-->
+        <attr name="showIcon" format="reference"/>
+    </declare-styleable>
+
 </resources>

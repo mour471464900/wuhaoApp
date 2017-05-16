@@ -81,6 +81,11 @@ public class MainActivity extends BaseActivity implements OnBannerListener {
                     e.printStackTrace();
                 }
             }
+
+            @Override
+            public void errorForCode(int code) {
+
+            }
         });
     }
 

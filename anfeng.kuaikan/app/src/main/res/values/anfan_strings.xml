@@ -7,6 +7,7 @@
     <string name="son_account_id">点击了广告牌</string>
     <string name="in_trying_to_load">努力加载中&#8230;</string>
     <string name="click_load_hint">现在没有网络噢，点击加载~~</string>
+    <string name="empty_hint">空空如也~~</string>
     <string name="load">加 载</string>
     <string name="af_warm_hint">温馨提示</string>
     <string name="af_cancel">取消</string>
