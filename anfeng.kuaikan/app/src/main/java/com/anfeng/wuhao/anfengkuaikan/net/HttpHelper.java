@@ -7,6 +7,7 @@ import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
 import com.anfeng.wuhao.anfengkuaikan.utils.NetworkUtil;
 import com.anfeng.wuhao.anfengkuaikan.utils.ToastUtil;
 import com.lzy.okgo.OkGo;
+import com.lzy.okgo.callback.StringCallback;
 
 import java.util.Map;
 
@@ -45,7 +46,7 @@ public class HttpHelper {
      * @param callback 网络请求回调
      */
     public void httpGetString(String url, final Context context, final RequestCallback<String> callback) {
-        OkGo.get(url).execute(new StringDialogCallback(context) {
+        OkGo.get(url).execute(new StringCallback() {
             @Override
             public void onSuccess(String s, Call call, Response response) {
                 LogUtil.e(TAG, "get请求成功回调信息" + s);
@@ -69,7 +70,7 @@ public class HttpHelper {
      * @param callback  互调信息
      */
     public void httpPostString(String url, Map<String, String> parameter, final Context context, final RequestCallback<String> callback) {
-        OkGo.post(url).params(parameter, false).execute(new StringDialogCallback(context) {
+        OkGo.post(url).params(parameter, false).execute(new StringCallback() {
             @Override
             public void onSuccess(String s, Call call, Response response) {
                 LogUtil.e(TAG, "post请求成功回调信息" + s);

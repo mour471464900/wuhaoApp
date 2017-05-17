@@ -73,11 +73,6 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
 
     @Override
     public void requestData() {
-        initView();
-        initData();
-    }
-
-    private void initData() {
         HttpHelper.getInstance().httpGetString(URLCommon.getDayUrl(id), getContext(), new RequestCallback<String>() {
             @Override
             public void succeedOnResult(String response) {
@@ -101,9 +96,12 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
             }
 
         });
+
     }
 
-    private void initView() {
+
+
+    protected void initView() {
         mConditionView.setDataCondition(DATA_LOADING);
         mDateAdapter = new DateListAdapter(getContext());
         mLRecyclerViewAdapter=new LRecyclerViewAdapter(mDateAdapter);
@@ -129,6 +127,6 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
     @Override
     public void onRetry() { // 点击重试之后视图变为加载状态
          mConditionView.setDataCondition(DATA_LOADING);
-        initData();
+         requestData();
     }
 }

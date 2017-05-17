@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="no_network">当前没有网络</string>
+    <string name="network_load_error">网络君不给力,请刷新重试.</string>
+	<string name="loading">拼命加载中...</string>
+	<string name="cancel_request">取消请求</string>
+	<!--<string name="another_exit">"再按一次退出"</string>-->
+	<string name="no_item">暂无内容...</string>
+<!--	<string name="network_failure1">网络请求失败</string>-->
+	<string name="refresh_try">点击刷新</string>
+</resources>

@@ -29,4 +29,34 @@
         <attr name="showIcon" format="reference"/>
     </declare-styleable>
 
+    <declare-styleable name="LoadingFrameView">
+        <attr name="fv_progressInfo" format="string" />
+        <attr name="fv_emptyIcon" format="reference" />
+        <attr name="fv_emptyInfo" format="string" />
+        <attr name="fv_errorIcon" format="reference" />
+        <attr name="fv_errorInfo" format="string" />
+        <attr name="fv_repeatIcon" format="reference" />
+        <attr name="fv_repeatInfo" format="string" />
+        <attr name="fv_customLayout" format="reference" />
+        <attr name="fv_frame">
+            <flag name="container" value="0x0" />
+            <flag name="progress" value="0x1" />
+            <flag name="empty" value="0x2" />
+            <flag name="error" value="0x3" />
+            <flag name="repeat" value="0x4" />
+        </attr>
+    </declare-styleable>
+    <!-- progress使用 -->
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
 </resources>

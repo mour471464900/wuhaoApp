@@ -132,16 +132,16 @@ public class ConditionView extends RelativeLayout {
     public void setDataCondition(int code) {
         switch (code) {
             case CONTAINER:
-                setFrame(CONTAINER, true, false);
+                setFrame(CONTAINER, false, true);
                 break;
             case DATA_LOADING:
-                setFrame(DATA_LOADING, true, false);
+                setFrame(DATA_LOADING, true, true);
                 break;
             case DATA_EMPTY:
-                setFrame(DATA_EMPTY, true, false);
+                setFrame(DATA_EMPTY, false, true);
                 break;
             case DATA_RETRY:
-                setFrame(DATA_RETRY, true, false);
+                setFrame(DATA_RETRY, false, true);
                 break;
         }
     }
