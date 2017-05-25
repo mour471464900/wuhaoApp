@@ -56,6 +56,9 @@ public class LoadingFrameView extends RelativeLayout {
 	private Runnable mRepeatRunnable;
 	// 当前布局显示状态
 	private int lastItem;
+    // 重试接口
+	private  OnRetryListener mOnRetryListener;
+
 
 	public LoadingFrameView(Context context) {
 		this(context, null, 0);
@@ -80,7 +83,7 @@ public class LoadingFrameView extends RelativeLayout {
 		setFrame(a.getInt(R.styleable.LoadingFrameView_fv_frame, CONTAINER_ITEM));
 		layoutId = a.getResourceId(R.styleable.LoadingFrameView_fv_customLayout, -1);
 		setDefaultProgressInfo(context);
-		setRepeatListener();
+//		setRepeatListener();
 		a.recycle();
 	}
 
@@ -429,23 +432,17 @@ public class LoadingFrameView extends RelativeLayout {
 		}
 	}
 
-	private void setRepeatListener() {
+	/**
+	 * 设置重试监听
+	 * @param onRetryListener
+     */
+	public  void setRepeatListener(final OnRetryListener onRetryListener) {
 		if (null != mRepeatLayout) {
 			mRepeatLayout.findViewById(R.id.tv_try).setOnClickListener(new OnClickListener() {
-
 				@Override
 				public void onClick(View v) {
-					// if (HttpManager.checkNetWork()) {
-					if (null != mRepeatRunnable) {
-						mRepeatRunnable.run();
-						// }
-						// } else {
-						// PromptUtils.showNetWorkErrorDialog(getContext(),
-						// (dialog, which) -> {
-						// if (null != mRepeatRunnable) {
-						// mRepeatRunnable.run();
-						// }
-						// });
+					if (null != onRetryListener) {
+						onRetryListener.onRetryListener();
 					}
 				}
 			});
@@ -547,6 +544,23 @@ public class LoadingFrameView extends RelativeLayout {
 	 */
 	public void setBackGroundColor(int color) {
 		setBackgroundColor(color);
+	}
+
+    public interface  OnRetryListener{
+		void onRetryListener();
+	}
+
+	public OnRetryListener getmOnRetryListener() {
+		return mOnRetryListener;
+	}
+
+	public void setmOnRetryListener(OnRetryListener mOnRetryListener) {
+		this.mOnRetryListener = mOnRetryListener;
+	}
+
+	public void setRetryCondition(OnRetryListener onRetryListener){
+		setRepeatShown(true);
+		setRepeatListener(onRetryListener);
 	}
 
 }

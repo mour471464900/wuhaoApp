@@ -33,6 +33,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
         <!--阿里百川Hotfix 热更框架配置项参数包括appId,appStreet,rsa密匙  start -->
         <meta-data
             android:name="com.taobao.android.hotfix.IDSECRET"

@@ -47,7 +47,7 @@ public class MainApplication extends Application {
                     .setReadTimeOut(OkGo.DEFAULT_MILLISECONDS)     //全局的读取超时时间
                     .setWriteTimeOut(OkGo.DEFAULT_MILLISECONDS)    //全局的写入超时时间
                     //可以全局统一设置缓存模式,默认是不使用缓存,可以不传,具体其他模式看 github 介绍 https://github.com/jeasonlzy/
-                    .setCacheMode(CacheMode.REQUEST_FAILED_READ_CACHE)
+                    .setCacheMode(CacheMode.REQUEST_FAILED_READ_CACHE) //  请求网络失败后，读取缓存
                     //可以全局统一设置缓存时间,默认永不过期,具体使用方法看 github 介绍
                     .setCacheTime(CacheEntity.CACHE_NEVER_EXPIRE)
                     //可以全局统一设置超时重连次数,默认为三次,那么最差的情况会请求4次(一次原始请求,三次重连请求),不需要可以设置为0

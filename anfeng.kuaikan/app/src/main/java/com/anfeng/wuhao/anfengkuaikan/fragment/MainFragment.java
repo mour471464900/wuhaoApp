@@ -30,7 +30,7 @@ import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_LOADING;
 import static com.anfeng.wuhao.anfengkuaikan.view.ConditionView.DATA_RETRY;
 
 /**
- * 作者： ${USER}
+ * 作者： 吴浩
  * 时间： 2017/4/28.
  * 描述：
  */
@@ -107,7 +107,7 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
         mLRecyclerViewAdapter=new LRecyclerViewAdapter(mDateAdapter);
         DividerDecoration divider = new DividerDecoration.Builder(getContext())
                 .setHeight(R.dimen.default_divider_height)
-                .setColorResource(R.color.af_c9E9E9E)
+                .setColorResource(R.color.af_cededed)
                 .build();
         mRvMain.setAdapter(mLRecyclerViewAdapter);
         mRvMain.addItemDecoration(divider);
