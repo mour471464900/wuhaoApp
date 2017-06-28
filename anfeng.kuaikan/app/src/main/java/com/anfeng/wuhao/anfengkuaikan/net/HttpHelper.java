@@ -21,6 +21,7 @@ import okhttp3.Response;
  * ---网络请求成功,不读取缓存 onBefore -> convertSuccess -> onSuccess -> onAfter<br>
  * ---网络请求失败,读取缓存成功 onBefore -> parseError -> onError -> onCacheSuccess -> onAfter<br>
  * ---网络请求失败,读取缓存失败 onBefore -> parseError -> onError -> onCacheError -> onAfter<br>
+ * 4. 优化项，当读取缓存的时候
  */
 public class HttpHelper {
     public static final String TAG = HttpHelper.class.getSimpleName();
@@ -48,7 +49,9 @@ public class HttpHelper {
      * @param callback 网络请求回调
      *  <p>由于缓存模式为网络请求失败才读取缓存
      *     在使用缓存的时候，会先执行onError()--》onCacheSuccess()
+     *     缓存策略：当没有网络的时候，会先执行请求异常的处理
      *  </p>
+     *
      */
     public void httpGetString(String url, final Context context, final RequestCallback<String> callback) {
         OkGo.get(url).cacheKey(url).execute(new StringCallback() {
@@ -61,7 +64,7 @@ public class HttpHelper {
             @Override
             public void onError(Call call, Response response, Exception e) {
                 super.onError(call, response, e);
-                LogUtil.e(TAG, "onError");
+                LogUtil.e(TAG, "onError执行");
                 callback.errorForCode(checkNetWork(context, response));
             }
 
@@ -73,6 +76,7 @@ public class HttpHelper {
             }
         });
     }
+
 
     /**
      * post请求的封装类
@@ -113,11 +117,9 @@ public class HttpHelper {
     private int checkNetWork(Context context, Response response) {
         if (!NetworkUtil.isNetworkAvailable(context)) { // 网络情况不好
             LogUtil.e(TAG, "网络异常");
-//            ToastUtil.toastShort(context, "网络异常");
             return  NET_ERROR;
         } else {                                        // 网络情况好
-            LogUtil.e(TAG, "服务器异常");
-//            ToastUtil.toastShort(context, "服务器异常");
+            LogUtil.e(TAG, "数据解析异常");
             return  SYSTEM_ERROR;
         }
     }

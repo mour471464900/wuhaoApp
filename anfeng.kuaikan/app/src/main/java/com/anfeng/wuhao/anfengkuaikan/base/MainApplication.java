@@ -11,6 +11,8 @@ import com.taobao.sophix.PatchStatus;
 import com.taobao.sophix.SophixManager;
 import com.taobao.sophix.listener.PatchLoadStatusListener;
 
+import org.litepal.LitePal;
+
 import java.util.logging.Level;
 
 /**
@@ -28,6 +30,7 @@ public class MainApplication extends Application {
         Fresco.initialize(this); // 初始化Fresco
         OkGo.init(this);         // 初始化okgo请求框架
         initOkGo();
+        LitePal.initialize(this); // 初始化litePal
     }
 
     /**

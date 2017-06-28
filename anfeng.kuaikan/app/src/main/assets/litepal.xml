@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="af" ></dbname>
+
+    <version value="1" ></version>
+    <list>
+        <!--用户表-->
+        <mapping class="com.anfeng.wuhao.anfengkuaikan.bean.UserInfo" />
+    </list>
+</litepal>

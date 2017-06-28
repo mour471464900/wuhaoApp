@@ -7,6 +7,7 @@ import com.anfeng.wuhao.anfengkuaikan.R;
 import com.anfeng.wuhao.anfengkuaikan.adapter.DateListAdapter;
 import com.anfeng.wuhao.anfengkuaikan.base.BaseActivity;
 import com.anfeng.wuhao.anfengkuaikan.bean.DateListBean;
+import com.anfeng.wuhao.anfengkuaikan.bean.UserInfo;
 import com.anfeng.wuhao.anfengkuaikan.inter.RequestCallback;
 import com.anfeng.wuhao.anfengkuaikan.net.HttpHelper;
 import com.anfeng.wuhao.anfengkuaikan.utils.AppUtil;
@@ -21,11 +22,14 @@ import com.github.jdsjlzx.interfaces.OnRefreshListener;
 import com.github.jdsjlzx.recyclerview.LRecyclerView;
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter;
 
+import org.litepal.crud.DataSupport;
+
 import java.util.List;
 
 import butterknife.BindView;
 
 import static com.lzy.okgo.OkGo.getContext;
+
 
 /**
  * ============================
@@ -40,10 +44,11 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
     LRecyclerView mRvMain;
     @BindView(R.id.frame_view)
     LoadingFrameView mFrameView;
-    @BindView(R.id.fb_main)
-    FloatingBall mFb;
+
     private DateListAdapter mDateAdapter;
     private LRecyclerViewAdapter mLRecyclerViewAdapter;
+    private FloatingBall floatingBall;
+
     @Override
     public int setContentViewId() {
         return R.layout.activity_test;
@@ -62,6 +67,7 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
                      mDateAdapter.setDataList(comics);
                      mFrameView.setContainerShown(true);
                 }else {
+                    LogUtil.e(getTag(),"数据解析异常");
                     errorForCode(HttpHelper.SYSTEM_ERROR);
                 }
             }
@@ -98,6 +104,12 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         mRvMain.setOnRefreshListener(this);
         mLRecyclerViewAdapter.setOnItemClickListener(this);
         showShortToast("当前屏幕的宽高："+AppUtil.getDisplayWidth(this)+"*"+AppUtil.getDisplayHeight(this));
+        floatingBall=new FloatingBall(this);// 初始化就可以附着当前的Activity中
+        List<UserInfo> list= DataSupport.findAll(UserInfo.class);
+        UserInfo userInfo = list.get(0);
+        if(userInfo!=null){
+            LogUtil.e(getTag(),"用户名"+userInfo.getUsername()+"用户token"+userInfo.getToken());
+        }
     }
 
     @Override
@@ -116,5 +128,13 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
     @Override
     public void onItemClick(View view, int position) {
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(floatingBall!=null){
+            floatingBall.remove();
+        }
     }
 }

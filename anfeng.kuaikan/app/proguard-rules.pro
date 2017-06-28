@@ -19,3 +19,18 @@
 -keep class com.youth.banner.** {
     *;
  }
+ #okhttp
+ -dontwarn okhttp3.**
+ -keep class okhttp3.**{*;}
+
+ #okio
+ -dontwarn okio.**
+ -keep class okio.**{*;}
+
+ # litepal
+ -keep class org.litepal.** {
+     *;
+ }
+ -keep class * extends org.litepal.crud.DataSupport {
+     *;
+ }
