@@ -1,5 +1,6 @@
 package com.anfeng.wuhao.anfengkuaikan.activity;
 
+import android.os.Build;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 
@@ -95,7 +96,9 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
                 .setColorResource(R.color.af_cededed)
                 .build();
         mRvMain.setAdapter(mLRecyclerViewAdapter);
-        mRvMain.addItemDecoration(divider);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+            mRvMain.addItemDecoration(divider);
+        }
         mRvMain.setLayoutManager(new LinearLayoutManager(getContext()));
         //启用下拉刷新
         mRvMain.setPullRefreshEnabled(true);
@@ -105,10 +108,12 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         mLRecyclerViewAdapter.setOnItemClickListener(this);
         showShortToast("当前屏幕的宽高："+AppUtil.getDisplayWidth(this)+"*"+AppUtil.getDisplayHeight(this));
         floatingBall=new FloatingBall(this);// 初始化就可以附着当前的Activity中
+         UserInfo userInfo=new UserInfo("吴浩","mour471464900");
+        boolean save = userInfo.save();
+        LogUtil.e(getTag(),"wuhao用户插入成功"+save);
         List<UserInfo> list= DataSupport.findAll(UserInfo.class);
-        UserInfo userInfo = list.get(0);
-        if(userInfo!=null){
-            LogUtil.e(getTag(),"用户名"+userInfo.getUsername()+"用户token"+userInfo.getToken());
+        if(list!=null&&list.size()>0){
+            LogUtil.e(getTag(),"用户名"+list.get(0).getUsername()+"用户token"+list.get(0).getToken());
         }
     }
 

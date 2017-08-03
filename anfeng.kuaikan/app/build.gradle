@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.anfeng.wuhao.anfengkuaikan"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -38,6 +38,7 @@ android {
             url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories"
         }
     }
+
 }
 
 dependencies {
@@ -46,7 +47,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.2.0'
-    testCompile 'junit:junit:4.12'
     compile 'com.taobao.android:alisdk-hotfix:2.0.8'  // 热修复框架
     compile 'com.android.support:design:25.2.0'       // design 包
     compile 'com.google.code.gson:gson:2.8.0'         // gson框架
@@ -58,4 +58,9 @@ dependencies {
     compile 'com.lzy.net:okgo:2.1.4'                  //版本号使用 2.1.4 可以自动引用最新版  okgo
     compile 'com.github.jdsjlzx:LRecyclerView:1.4.3'  // 拓展类的recyclerView
     compile 'org.litepal.android:core:1.5.1'          // 数据库框架
+    //ADD THESE LINES:
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test:runner:0.2'
+    androidTestCompile 'com.android.support.test:rules:0.2'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.1'
 }
