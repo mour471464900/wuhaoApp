@@ -1,7 +1,6 @@
 package com.anfeng.wuhao.anfengkuaikan.utils;
-
-import android.content.Context;
 import android.widget.Toast;
+import com.anfeng.wuhao.anfengkuaikan.base.MainApplication;
 
 /**
  * 弹toastShort
@@ -11,20 +10,20 @@ import android.widget.Toast;
  */
 public class ToastUtil {
 	public static long LAST_CLOCK_TIME;
-
-	public static void toastShort(Context context, String text) {
-		Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
+	
+	public static void toastShort(String text) {
+		Toast.makeText(MainApplication.getContext(), text, Toast.LENGTH_SHORT).show();
 	}
-	public static void toastShort(Context context, int resId) {
-		Toast.makeText( context, resId, Toast.LENGTH_SHORT).show();
-	}
-
-	public static void toastLong(Context context, String text) {
-		Toast.makeText(context, text, Toast.LENGTH_LONG).show();
+	public static void toastShort( int resId) {
+		Toast.makeText( MainApplication.getContext(), resId, Toast.LENGTH_SHORT).show();
 	}
 
-	public static void toastLong(Context context, int resId) {
-		Toast.makeText(context, resId, Toast.LENGTH_LONG).show();
+	public static void toastLong( String text) {
+		Toast.makeText(MainApplication.getContext(), text, Toast.LENGTH_LONG).show();
+	}
+
+	public static void toastLong( int resId) {
+		Toast.makeText(MainApplication.getContext(), resId, Toast.LENGTH_LONG).show();
 	}
 
 	// 防误点

@@ -124,7 +124,7 @@ public static final String SEARCH_START="http://api.kuaikanmanhua.com/v1/topics/
      * @param since
      * @return
      */
-    public static String getNewHotWord(String since){
+    public static String getNewHotWord(int since){
       return   "http://api.kuaikanmanhua.com/v2/topic/search/new_hot_word?since="+since+"&count=10";
     }
 

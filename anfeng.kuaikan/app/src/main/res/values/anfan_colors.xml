@@ -61,5 +61,28 @@
     <!--灰色按钮的点击颜色-->
     <color name="af_c979797">#979797</color>
     <color name="colorBackgroundGray">#F2F2F2</color>
+    <color name="colorPrimary">#00C83C</color>
+    <color name="colorPrimaryDark">#00C83C</color>
+    <color name="colorAccent">#00C83C</color>
+    <color name="colorDark">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#999999</color>
+    <color name="colorSemiTransparentGray">#50999999</color>
+    <color name="colorOrange">#FCB400</color>
+    <color name="colorRed">#FC4C4C</color>
 
+    <color name="colorDividerGray">#DDDDDD</color>
+
+
+    <color name="colorTitleDark">#000000</color>
+    <color name="colorTitleGray">#303030</color>
+    <color name="colorHintGray">#999999</color>
+    <color name="colorText">#909090</color>
+
+    <color name="transparent">#3a000000</color>
+    <color name="colorGift">#ff7095</color>
+    <color name="colorStrategy">#877eff</color>
+    <color name="colorActive">#62d284</color>
+    <color name="colorLightGray">#DCDCDC</color>
+    <color name="colorPlaceHolder">#F2F2F2</color>
 </resources>
