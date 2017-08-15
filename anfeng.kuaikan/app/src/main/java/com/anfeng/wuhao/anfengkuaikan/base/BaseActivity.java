@@ -37,17 +37,17 @@ public abstract class BaseActivity extends AppCompatActivity  {
     }
 
     public void showLongToast(String text){
-        ToastUtil.toastLong(this,text);
+        ToastUtil.toastLong(text);
     }
     public void showLongToast(int resId){
-        ToastUtil.toastLong(this,getResources().getText(resId).toString());
+        ToastUtil.toastLong(getResources().getText(resId).toString());
     }
 
     public void showShortToast(String text){
-        ToastUtil.toastShort(this,text);
+        ToastUtil.toastShort(text);
     }
     public void showShortToast(int resId){
-        ToastUtil.toastShort(this,getResources().getText(resId).toString());
+        ToastUtil.toastShort(getResources().getText(resId).toString());
     }
 
 //    /**

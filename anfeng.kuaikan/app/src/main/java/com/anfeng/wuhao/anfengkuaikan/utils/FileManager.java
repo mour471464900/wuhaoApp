@@ -78,7 +78,7 @@ public class FileManager {
 			public void run() {
 				if(deletefile(path)){
 					Looper.getMainLooper().prepare();
-					ToastUtil.toastShort(context,"下载文件已删除");
+					ToastUtil.toastShort("下载文件已删除");
 					Looper.getMainLooper().loop();
 				};
 			}

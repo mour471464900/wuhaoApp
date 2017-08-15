@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 import com.anfeng.wuhao.anfengkuaikan.R;
 import com.anfeng.wuhao.anfengkuaikan.inter.ViewImageClickListener;
+import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
 import com.nineoldandroids.view.ViewHelper;
 import com.nineoldandroids.view.ViewPropertyAnimator;
 
@@ -385,7 +386,9 @@ public class LoadingFrameView extends RelativeLayout {
 	 *            提示图标引用资源id
 	 */
 	public void setRepeatIcon(int resId) {
-		this.mRepeatView.setImageResource(resId);
+//		this.mRepeatView.setImageResource(resId);
+		LogUtil.e("cuowu",mRepeatView.toString());
+		this.mRepeatView.setImageResource(R.drawable.load_error);
 	}
 
 	/**
