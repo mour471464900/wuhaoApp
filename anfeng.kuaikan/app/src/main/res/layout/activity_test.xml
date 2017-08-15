@@ -3,6 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <!---->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/af_cff3600"
+        >
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_serch"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_nav_search_pressed"
+                />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@null"
+               android:hint="权御三国"
+               android:textSize="13dp"
+               />
+        </LinearLayout>
+    </LinearLayout>
     <com.anfeng.wuhao.anfengkuaikan.view.LoadingFrameView
         android:id="@+id/frame_view"
         android:layout_width="match_parent"

@@ -26,6 +26,7 @@
 
     <color name="af_c3792e3">#3792e3</color>
     <color name="af_cff3600">#ff3600</color>
+    <color name="af_cf7ff00">#f7ff00</color>
     <color name="af_c6ed23a">#6ed23a</color>
     <color name="af_c999999">#999999</color>
     <color name="af_cf5f5fa">#f5f5fa</color>
@@ -45,7 +46,7 @@
     <color name="af_c666666">#666666</color>
     <!--新版安锋的主题颜色,-->
     <color name="af_c06be77">#06be77</color>
-    <color name="af_c3abe06">#beb806</color>
+    <color name="af_c3abe06">#fcf655</color>
     <color name="af_c2f2f2f">#2f2f2f</color>
     <!--80%透明白色-->
     <color name="af_ce6ffffff">#e6ffffff</color>
@@ -59,6 +60,6 @@
     <color name="af_c4b91c3">#4b91c3</color>
     <!--灰色按钮的点击颜色-->
     <color name="af_c979797">#979797</color>
-
+    <color name="colorBackgroundGray">#F2F2F2</color>
 
 </resources>

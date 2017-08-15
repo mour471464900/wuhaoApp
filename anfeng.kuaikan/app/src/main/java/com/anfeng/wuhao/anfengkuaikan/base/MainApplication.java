@@ -1,6 +1,7 @@
 package com.anfeng.wuhao.anfengkuaikan.base;
 
 import android.app.Application;
+import android.content.Context;
 
 import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
@@ -22,6 +23,7 @@ public class MainApplication extends Application {
 
     public static final String TAG=MainApplication.class.getSimpleName();
 
+    public static  MainApplication mainApplication;
 
     @Override
     public void onCreate() {
@@ -31,7 +33,13 @@ public class MainApplication extends Application {
         OkGo.init(this);         // 初始化okgo请求框架
         initOkGo();
         LitePal.initialize(this); // 初始化litePal
+        mainApplication=this;
     }
+
+    public static Context getContext(){
+        return  mainApplication.getApplicationContext();
+    }
+
 
     /**
      * 设置okgo工具类

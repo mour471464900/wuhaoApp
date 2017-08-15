@@ -1,8 +1,11 @@
 package com.anfeng.wuhao.anfengkuaikan.activity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 
 import com.anfeng.wuhao.anfengkuaikan.R;
 import com.anfeng.wuhao.anfengkuaikan.adapter.DateListAdapter;
@@ -40,12 +43,13 @@ import static com.lzy.okgo.OkGo.getContext;
  * =============================
  */
 
-public class TestActivity extends BaseActivity implements OnRefreshListener ,LoadingFrameView.OnRetryListener, OnItemClickListener {
+public class TestActivity extends BaseActivity implements OnRefreshListener ,LoadingFrameView.OnRetryListener, OnItemClickListener, View.OnClickListener {
     @BindView(R.id.rv_main)
     LRecyclerView mRvMain;
     @BindView(R.id.frame_view)
     LoadingFrameView mFrameView;
-
+    @BindView(R.id.ll_search)
+    LinearLayout mLlSearch;
     private DateListAdapter mDateAdapter;
     private LRecyclerViewAdapter mLRecyclerViewAdapter;
     private FloatingBall floatingBall;
@@ -115,6 +119,7 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         if(list!=null&&list.size()>0){
             LogUtil.e(getTag(),"用户名"+list.get(0).getUsername()+"用户token"+list.get(0).getToken());
         }
+        mLlSearch.setOnClickListener(this);
     }
 
     @Override
@@ -140,6 +145,15 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         super.onDestroy();
         if(floatingBall!=null){
             floatingBall.remove();
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.ll_search:
+                startActivity(new Intent(this,SearchActivity.class));
+                break;
         }
     }
 }

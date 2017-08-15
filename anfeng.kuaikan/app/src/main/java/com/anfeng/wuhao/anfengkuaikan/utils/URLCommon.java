@@ -119,5 +119,13 @@ public static final String SEARCH_START="http://api.kuaikanmanhua.com/v1/topics/
         return  DAY_START+id+DAY_END;
     }
 
+    /**
+     * 获取搜索热词
+     * @param since
+     * @return
+     */
+    public static String getNewHotWord(String since){
+      return   "http://api.kuaikanmanhua.com/v2/topic/search/new_hot_word?since="+since+"&count=10";
+    }
 
 }

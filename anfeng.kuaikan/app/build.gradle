@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -63,4 +66,5 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:0.2'
     androidTestCompile 'com.android.support.test:rules:0.2'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.1'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:${kotlin_version}" // 加入kotlin模块
 }
