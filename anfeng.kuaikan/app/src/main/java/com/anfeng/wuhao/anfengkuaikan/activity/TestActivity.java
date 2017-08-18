@@ -5,7 +5,7 @@ import android.os.Build;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.Switch;
+
 
 import com.anfeng.wuhao.anfengkuaikan.R;
 import com.anfeng.wuhao.anfengkuaikan.adapter.DateListAdapter;
@@ -20,6 +20,7 @@ import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
 import com.anfeng.wuhao.anfengkuaikan.utils.URLCommon;
 import com.anfeng.wuhao.anfengkuaikan.view.FloatingBall;
 import com.anfeng.wuhao.anfengkuaikan.view.LoadingFrameView;
+import com.anfeng.wuhao.anfengkuaikan.view.StateTextView;
 import com.github.jdsjlzx.ItemDecoration.DividerDecoration;
 import com.github.jdsjlzx.interfaces.OnItemClickListener;
 import com.github.jdsjlzx.interfaces.OnRefreshListener;
@@ -44,16 +45,13 @@ import static com.lzy.okgo.OkGo.getContext;
  */
 
 public class TestActivity extends BaseActivity implements OnRefreshListener ,LoadingFrameView.OnRetryListener, OnItemClickListener, View.OnClickListener {
-    @BindView(R.id.rv_main)
+
     LRecyclerView mRvMain;
-    @BindView(R.id.frame_view)
     LoadingFrameView mFrameView;
-    @BindView(R.id.ll_search)
-    LinearLayout mLlSearch;
+    StateTextView mLlSearch;
     private DateListAdapter mDateAdapter;
     private LRecyclerViewAdapter mLRecyclerViewAdapter;
     private FloatingBall floatingBall;
-
     @Override
     public int setContentViewId() {
         return R.layout.activity_test;
@@ -92,6 +90,9 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
 
     @Override
     protected void initView() {
+        mRvMain= (LRecyclerView) findViewById(  R.id.rv_main);
+        mFrameView= (LoadingFrameView) findViewById(  R.id.frame_view);
+        mLlSearch= (StateTextView) findViewById( R.id.search);
         mFrameView.setProgressShown(true);
         mDateAdapter = new DateListAdapter(getContext());
         mLRecyclerViewAdapter=new LRecyclerViewAdapter(mDateAdapter);
@@ -120,6 +121,7 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
             LogUtil.e(getTag(),"用户名"+list.get(0).getUsername()+"用户token"+list.get(0).getToken());
         }
         mLlSearch.setOnClickListener(this);
+
     }
 
     @Override
@@ -151,7 +153,7 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.ll_search:
+            case R.id.search:
                 startActivity(new Intent(this,SearchActivity.class));
                 break;
         }

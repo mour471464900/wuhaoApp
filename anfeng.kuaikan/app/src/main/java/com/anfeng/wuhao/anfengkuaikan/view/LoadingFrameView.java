@@ -38,20 +38,12 @@ public class LoadingFrameView extends RelativeLayout {
 	public final static int ERROR_ITEM = 3;
 	public final static int REPEAT_ITEM = 4;
 	public final static int CUSTOM_LAYOUT = 5;
-	@BindView(R.id.container)
 	RelativeLayout mViewContainer;
-	@BindView(R.id.load_info)
 	TextView mProgressView;
-	@BindView(R.id.empty_container)
 	LinearLayout mEmptyView;
-
-	@BindView(R.id.error_container)
 	TextView mErrorView;
-	@BindView(R.id.repeat_container)
 	LinearLayout mRepeatLayout;// 重试
-	@BindView(R.id.iv_repeat_pic)
 	ImageView mRepeatView;
-	@BindView(R.id.tv_try)
 	TextView mRepeatInfo;
 	private int layoutId;// 自定义布局体id
 	private Runnable mRepeatRunnable;
@@ -72,7 +64,7 @@ public class LoadingFrameView extends RelativeLayout {
 	public LoadingFrameView(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 		View inflate = View.inflate(getContext(), R.layout.loading_frame_layout, this);
-		ButterKnife.bind(this, inflate);
+		initView(inflate);
 		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.LoadingFrameView);
 		setProgressInfo(a.getString(R.styleable.LoadingFrameView_fv_progressInfo));
 		setEmptyInfo(a.getString(R.styleable.LoadingFrameView_fv_emptyInfo));
@@ -86,6 +78,16 @@ public class LoadingFrameView extends RelativeLayout {
 		setDefaultProgressInfo(context);
 //		setRepeatListener();
 		a.recycle();
+	}
+
+	private void initView(View inflate) {
+		mViewContainer= (RelativeLayout) inflate.findViewById(R.id.container);
+		mProgressView= (TextView) inflate.findViewById(R.id.load_info);
+		mEmptyView= (LinearLayout) inflate.findViewById(R.id.empty_container);
+		mErrorView= (TextView) inflate.findViewById(R.id.error_container);
+		mRepeatLayout= (LinearLayout) inflate.findViewById(R.id.repeat_container);
+		mRepeatView= (ImageView) inflate.findViewById(R.id.iv_repeat_pic);
+		mRepeatInfo= (TextView) inflate.findViewById(R.id.tv_try);
 	}
 
 	@Override
