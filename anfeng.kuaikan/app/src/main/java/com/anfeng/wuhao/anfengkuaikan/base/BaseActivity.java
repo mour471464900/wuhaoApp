@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import com.anfeng.wuhao.anfengkuaikan.utils.AppUtil;
 import com.anfeng.wuhao.anfengkuaikan.utils.ToastUtil;
 
+import org.greenrobot.eventbus.EventBus;
+
 import butterknife.ButterKnife;
 
 /**
@@ -73,4 +75,17 @@ public abstract class BaseActivity extends AppCompatActivity  {
 //    }
 //
 //    protected  abstract void onBaseClick(View v);
+
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+//        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+//        EventBus.getDefault().unregister(this);
+    }
 }

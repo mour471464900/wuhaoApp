@@ -11,6 +11,7 @@ import android.widget.TextView
 import com.anfeng.wuhao.anfengkuaikan.R
 import com.anfeng.wuhao.anfengkuaikan.base.BaseKotlinActivity
 import com.anfeng.wuhao.anfengkuaikan.bean.HotWord
+import com.anfeng.wuhao.anfengkuaikan.event.TagEvent
 import com.anfeng.wuhao.anfengkuaikan.inter.RequestCallback
 import com.anfeng.wuhao.anfengkuaikan.net.HttpHelper
 import com.anfeng.wuhao.anfengkuaikan.utils.GsonUtils
@@ -20,6 +21,9 @@ import com.anfeng.wuhao.anfengkuaikan.view.Tag
 import com.anfeng.wuhao.anfengkuaikan.view.TagCloudLinkView
 import com.jakewharton.rxbinding2.view.RxView
 import kotlinx.android.synthetic.main.activity_search_main.*
+import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
+import org.greenrobot.eventbus.ThreadMode
 
 
 /**
@@ -137,6 +141,7 @@ class SearchActivity : BaseKotlinActivity() {
                     since = hotWord.data.since
                     hotWordList.addAll(hotWord.data.hot_word)
                     refreshHotWord()
+                    EventBus.getDefault().post(TagEvent("测试事件总线"))
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
@@ -149,11 +154,25 @@ class SearchActivity : BaseKotlinActivity() {
     private fun refreshHotWord() {
         tagHotWord.tags.clear()
         var listHot: ArrayList<HotWord.DataBean.HotWordBean> = arrayListOf()
-
         for (item in hotWordList) {
             tagHotWord.add(Tag(1, item.target_title))
         }
         tagHotWord.drawTags()
     }
+
+    override fun onStart() {
+        super.onStart()
+        EventBus.getDefault().register(this)
+    }
+
+    override fun onStop() {
+        super.onStop()
+        EventBus.getDefault().unregister(this)
+    }
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    fun  tagSuccess(tagEvent: TagEvent){
+        ToastUtil.toastShort(tagEvent.tag)
+    }
+
 
 }
