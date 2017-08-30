@@ -12,6 +12,7 @@ import com.anfeng.wuhao.anfengkuaikan.R
 import com.anfeng.wuhao.anfengkuaikan.base.BaseKotlinActivity
 import com.anfeng.wuhao.anfengkuaikan.bean.HotWord
 import com.anfeng.wuhao.anfengkuaikan.event.TagEvent
+import com.anfeng.wuhao.anfengkuaikan.event.KotlinUtil
 import com.anfeng.wuhao.anfengkuaikan.inter.RequestCallback
 import com.anfeng.wuhao.anfengkuaikan.net.HttpHelper
 import com.anfeng.wuhao.anfengkuaikan.utils.GsonUtils
@@ -57,6 +58,7 @@ class SearchActivity : BaseKotlinActivity() {
         etSearch.setOnEditorActionListener(etSearchActionListener())
         tagHotWord.setOnTagSelectListener(TagSelectListener())
         tagHistory.setOnTagSelectListener(TagSelectListener())
+        KotlinUtil.doSomething("测试工具类的调用")
     }
 
     inner class TagSelectListener : TagCloudLinkView.OnTagSelectListener {
