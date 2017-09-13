@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import com.anfeng.wuhao.anfengkuaikan.R
-import com.anfeng.wuhao.anfengkuaikan.event.KotlinUtil
-import com.anfeng.wuhao.anfengkuaikan.fragment.SearchFragment
-import com.anfeng.wuhao.anfengkuaikan.fragment.SecondFragment
+import com.anfeng.wuhao.anfengkuaikan.utils.KotlinUtil
+import com.anfeng.wuhao.anfengkuaikan.ui.fragment.SearchFragment
+import com.anfeng.wuhao.anfengkuaikan.ui.fragment.SecondFragment
 
 /**
  * Created by Administrator on 2017/8/22.

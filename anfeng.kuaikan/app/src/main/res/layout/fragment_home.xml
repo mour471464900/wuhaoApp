@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.anfeng.wuhao.anfengkuaikan.ui.view.NoScrollViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorDividerGray" />
+            <LinearLayout
+                android:id="@+id/homeTabs"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="@color/colorWhite"
+                android:layout_height="wrap_content"
+                >
+                <RadioButton
+                    android:id="@+id/radioCartoon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/selector_icon_cartoon"
+                    android:text="@string/cartoon"
+                    android:textColor="@color/color_home_text"
+                    android:button="@null"
+                   android:gravity="center_horizontal"
+                   android:textSize="12sp"
+                    />
+                <RadioButton
+                    android:id="@+id/radioDiscover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/selector_icon_discover"
+                    android:text="@string/discover"
+                    android:textColor="@color/color_home_text"
+                    android:button="@null"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    />
+                <RadioButton
+                    android:id="@+id/radioFeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/selector_icon_feed"
+                    android:text="@string/feed"
+                    android:textColor="@color/color_home_text"
+                    android:button="@null"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    />
+                <RadioButton
+                    android:id="@+id/radioMe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/selector_icon_me"
+                    android:text="@string/me"
+                    android:textColor="@color/color_home_text"
+                    android:button="@null"
+                    android:textSize="12sp"
+                    android:gravity="center_horizontal"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

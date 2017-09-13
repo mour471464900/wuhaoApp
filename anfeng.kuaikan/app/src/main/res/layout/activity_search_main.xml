@@ -37,6 +37,7 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:imeOptions="actionSearch"
+                    android:singleLine="true"
                     android:hint="权御三国"
                     android:textSize="13dp" />
             </LinearLayout>
@@ -80,7 +81,7 @@
                     android:src="@drawable/icon_ss_change"
                     />
             </LinearLayout>
-            <com.anfeng.wuhao.anfengkuaikan.view.TagCloudLinkView
+            <com.anfeng.wuhao.anfengkuaikan.ui.view.TagCloudLinkView
                 android:id="@+id/tagHotWord"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -126,7 +127,7 @@
                     />
             </LinearLayout>
 
-            <com.anfeng.wuhao.anfengkuaikan.view.TagCloudLinkView
+            <com.anfeng.wuhao.anfengkuaikan.ui.view.TagCloudLinkView
                 android:id="@+id/tagHistory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

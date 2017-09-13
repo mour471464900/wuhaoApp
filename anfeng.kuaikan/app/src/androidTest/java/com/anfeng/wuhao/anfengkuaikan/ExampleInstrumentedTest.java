@@ -5,7 +5,7 @@ import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import com.anfeng.wuhao.anfengkuaikan.activity.MainActivity;
+import com.anfeng.wuhao.anfengkuaikan.ui.activity.DataActivity;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -30,8 +30,8 @@ public class ExampleInstrumentedTest {
     private static final String STRING_TO_BE_TYPED = "Peter";
 
     @Rule
-    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
-            MainActivity.class);
+    public ActivityTestRule<DataActivity> mActivityRule = new ActivityTestRule<>(
+            DataActivity.class);
 
     @Test
     public void sayHello(){

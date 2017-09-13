@@ -79,7 +79,7 @@
                 android:src="@drawable/icon_ss_change"
                 />
         </LinearLayout>
-        <com.anfeng.wuhao.anfengkuaikan.view.TagCloudLinkView
+        <com.anfeng.wuhao.anfengkuaikan.ui.view.TagCloudLinkView
             android:id="@+id/tagHotWord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                 />
         </LinearLayout>
 
-        <com.anfeng.wuhao.anfengkuaikan.view.TagCloudLinkView
+        <com.anfeng.wuhao.anfengkuaikan.ui.view.TagCloudLinkView
             android:id="@+id/tagHistory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

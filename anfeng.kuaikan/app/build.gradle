@@ -35,12 +35,6 @@ android {
 
         }
     }
-    repositories {
-        maven {
-//          百川远程仓库
-            url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories"
-        }
-    }
 
 }
 
@@ -50,7 +44,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.2.0'
-    compile 'com.taobao.android:alisdk-hotfix:2.0.8'  // 热修复框架
     compile 'com.android.support:design:25.2.0'       // design 包
     compile 'com.google.code.gson:gson:2.8.0'         // gson框架
     compile 'com.android.support:recyclerview-v7:25.2.0'

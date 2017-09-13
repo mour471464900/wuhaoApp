@@ -2,15 +2,10 @@ package com.anfeng.wuhao.anfengkuaikan.base;
 
 import android.app.Application;
 import android.content.Context;
-
-import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.cache.CacheEntity;
 import com.lzy.okgo.cache.CacheMode;
-import com.taobao.sophix.PatchStatus;
-import com.taobao.sophix.SophixManager;
-import com.taobao.sophix.listener.PatchLoadStatusListener;
 
 import org.litepal.LitePal;
 
@@ -28,7 +23,6 @@ public class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        initHotfix();            // 初始化hotfix
         Fresco.initialize(this); // 初始化Fresco
         OkGo.init(this);         // 初始化okgo请求框架
         initOkGo();
@@ -67,42 +61,5 @@ public class MainApplication extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    /**
-     * 初始化百川工具
-     */
-    private void initHotfix() {
-        String appVersion;
-        try {
-            appVersion = this.getPackageManager().getPackageInfo(this.getPackageName(), 0).versionName;
-        } catch (Exception e) {
-            appVersion = "1.0.0";
-        }
-
-        SophixManager.getInstance().setContext(this)
-                .setAppVersion(appVersion)
-                .setAesKey(null)
-                .setEnableDebug(true)
-                .setPatchLoadStatusStub(new PatchLoadStatusListener() {
-                    @Override
-                    public void onLoad(final int mode, final int code, final String info, final int handlePatchVersion) {
-                        // 补丁加载回调通知
-                        if (code == PatchStatus.CODE_LOAD_SUCCESS) {
-                            // 表明补丁加载成功
-                            LogUtil.e(TAG, "补丁可以直接使用");
-                        } else if (code == PatchStatus.CODE_LOAD_RELAUNCH) {
-                            // 表明新补丁生效需要重启. 开发者可提示用户或者强制重启;
-                            // 建议: 用户可以监听进入后台事件, 然后应用自杀
-
-                        } else if (code == PatchStatus.CODE_LOAD_FAIL) {
-                            // 内部引擎异常, 推荐此时清空本地补丁, 防止失败补丁重复加载
-                            //  SophixManager.getInstance().cleanPatches();
-                        } else if(mode==0) {
-
-                        }
-                    }
-                }).initialize();
-          SophixManager.getInstance().queryAndLoadNewPatch();// 加载新补丁
     }
 }

@@ -12,7 +12,7 @@ import com.anfeng.wuhao.anfengkuaikan.base.ListBaseAdapter;
 import com.anfeng.wuhao.anfengkuaikan.base.SuperViewHolder;
 import com.anfeng.wuhao.anfengkuaikan.bean.DateListBean;
 import com.anfeng.wuhao.anfengkuaikan.utils.ImageLoad;
-import com.anfeng.wuhao.anfengkuaikan.view.AppImage;
+import com.anfeng.wuhao.anfengkuaikan.ui.view.AppImage;
 
 /**
  * ============================

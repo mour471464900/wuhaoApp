@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.ImageView;
 
 import com.anfeng.wuhao.anfengkuaikan.R;
-import com.anfeng.wuhao.anfengkuaikan.view.AppImage;
+import com.anfeng.wuhao.anfengkuaikan.ui.view.AppImage;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;
 
 /**

@@ -1,6 +1,6 @@
 package com.anfeng.wuhao.anfengkuaikan.utils;
 
-import com.anfeng.wuhao.anfengkuaikan.view.AppImage;
+import com.anfeng.wuhao.anfengkuaikan.ui.view.AppImage;
 
 /**
  * 图片加载工具类

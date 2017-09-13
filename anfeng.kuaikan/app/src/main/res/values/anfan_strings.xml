@@ -13,4 +13,11 @@
     <string name="af_cancel">取消</string>
     <string name="af_affirm">确认</string>
     <string name="complete_works">全集</string>
+    <string name="cartoon">漫画</string>
+    <string name="discover">发现</string>
+    <string name="feed">社区</string>
+    <string name="me">我的</string>
+    <string name="care">关注</string>
+    <string name="hot">热门</string>
+    <string name="plaza">广场</string>
 </resources>
