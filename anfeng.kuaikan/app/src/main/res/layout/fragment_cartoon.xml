@@ -13,22 +13,44 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:orientation="horizontal"
+           android:background="@drawable/shape_cartoon"
+           android:padding="2dp"
            >
           <RadioButton
               android:id="@+id/radioCare"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:button="@null"
-             android:text="@string/care"
+              android:text="@string/care"
+              android:textColor="@color/color_cartoon_text"
+              android:background="@drawable/select_cartoon_text"
+              android:paddingTop="7dp"
+              android:paddingBottom="7dp"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:checked="true"
               />
           <RadioButton
               android:id="@+id/radioHot"
               android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
+              android:layout_height="match_parent"
               android:button="@null"
               android:text="@string/hot"
+              android:textColor="@color/color_cartoon_text"
+              android:background="@drawable/select_cartoon_text"
+              android:paddingTop="7dp"
+              android:paddingBottom="7dp"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+
               />
        </RadioGroup>
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
     </RelativeLayout>
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
