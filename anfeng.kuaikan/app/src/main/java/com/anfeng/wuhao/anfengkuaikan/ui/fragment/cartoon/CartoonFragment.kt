@@ -30,6 +30,7 @@ class CartoonFragment:BaseFragment() {
         super.onActivityCreated(savedInstanceState)
         viewPager.adapter=CartoonAdapter(childFragmentManager)
         viewPager.addOnPageChangeListener(CartoonPagerListener())
+        viewPager.setCurrentItem(1,false)
         for(i in 0 until radioTop.childCount){
             radioTop.getChildAt(i).setOnClickListener(tabClick)
         }
@@ -76,6 +77,10 @@ class CartoonFragment:BaseFragment() {
 
         override fun onPageScrollStateChanged(state: Int) {
         }
+    }
+
+    fun getTopView():View{
+        return topView
     }
 
 }

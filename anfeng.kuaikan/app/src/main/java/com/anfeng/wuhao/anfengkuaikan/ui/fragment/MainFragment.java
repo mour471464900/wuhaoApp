@@ -4,11 +4,14 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.anfeng.game.ui.BaseFragment;
 import com.anfeng.wuhao.anfengkuaikan.R;
 import com.anfeng.wuhao.anfengkuaikan.adapter.DateListAdapter;
-import com.anfeng.wuhao.anfengkuaikan.base.BaseFragment;
 import com.anfeng.wuhao.anfengkuaikan.bean.DateListBean;
 import com.anfeng.wuhao.anfengkuaikan.inter.RequestCallback;
 import com.anfeng.wuhao.anfengkuaikan.net.HttpHelper;
@@ -19,11 +22,7 @@ import com.anfeng.wuhao.anfengkuaikan.ui.view.ConditionView;
 import com.github.jdsjlzx.ItemDecoration.DividerDecoration;
 import com.github.jdsjlzx.recyclerview.LRecyclerView;
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter;
-
 import java.util.List;
-
-import butterknife.BindView;
-
 import static com.anfeng.wuhao.anfengkuaikan.ui.view.ConditionView.CONTAINER;
 import static com.anfeng.wuhao.anfengkuaikan.ui.view.ConditionView.DATA_EMPTY;
 import static com.anfeng.wuhao.anfengkuaikan.ui.view.ConditionView.DATA_LOADING;
@@ -35,12 +34,10 @@ import static com.anfeng.wuhao.anfengkuaikan.ui.view.ConditionView.DATA_RETRY;
  * 描述：
  */
 
+
 public class MainFragment extends BaseFragment implements ConditionView.OnRetryListener{
-    @BindView(R.id.ll_main)
     LinearLayout mLlMain;
-    @BindView(R.id.rv_main)
     LRecyclerView mRvMain;
-    @BindView(R.id.cv_main)
     ConditionView mConditionView;
     //  时间戳ID
     private long id;
@@ -48,6 +45,8 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
     public static final String ID = "id";
     private DateListAdapter mDateAdapter;
     private LRecyclerViewAdapter mLRecyclerViewAdapter;
+
+
 
     public static MainFragment getNewInstance(Bundle args) {
         MainFragment fragment = new MainFragment();
@@ -66,12 +65,20 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
         }
     }
 
+
+
+    @org.jetbrains.annotations.Nullable
     @Override
-    public int setLayoutId() {
-        return R.layout.fragment_main;
+    public View onCreateView(@org.jetbrains.annotations.Nullable LayoutInflater inflater, @org.jetbrains.annotations.Nullable ViewGroup container, @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
+        View inflate = inflater.inflate(R.layout.activity_main, container, false);
+         mLlMain= (LinearLayout) inflate.findViewById(R.id.ll_main);
+         mRvMain= (LRecyclerView) inflate.findViewById(R.id.rv_main);
+        return inflate;
     }
 
-    @Override
+
+
+
     public void requestData() {
         HttpHelper.getInstance().httpGetString(URLCommon.getDayUrl(id), getContext(), new RequestCallback<String>() {
             @Override
@@ -122,6 +129,8 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        initView();
+        requestData();
     }
 
     @Override

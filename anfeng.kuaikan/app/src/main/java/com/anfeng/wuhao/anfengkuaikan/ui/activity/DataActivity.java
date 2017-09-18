@@ -28,11 +28,10 @@ import butterknife.BindView;
 
 public class DataActivity extends BaseActivity implements OnBannerListener {
 
-    @BindView(R.id.banner_main)
     Banner mBannerMain;
-    @BindView(R.id.tab_main)
+
     TabLayout mTabMain;
-    @BindView(R.id.vp_main)
+
     AppViewPage mVpMain;
     private long  [] urlNum = {
             (new Date().getTime()-24*60*60*1000*7)/1000,

@@ -54,21 +54,13 @@ public class ConditionView extends RelativeLayout {
      * 错误资源id标识
      */
     public static final int ERROR_RES_ID = -1;
-    @BindView(R.id.iv_loading_anim)
     ImageView mIvLoadingAnim;
-    @BindView(R.id.ll_load)
     LinearLayout mLlLoad;
-    @BindView(R.id.ll_empty)
     LinearLayout mLlEmpty;
-    @BindView(R.id.iv_net_error)
     ImageView mIvNetError;
-    @BindView(R.id.tv_net_error)
     TextView mTvNetError;
-    @BindView(R.id.btn_load)
     Button mBtnLoad;
-    @BindView(R.id.ll_net_error)
     LinearLayout mLlNetError;
-    @BindView(R.id.rl_container)
     RelativeLayout mRlContainer;
     private String netErrorHint; // 网络异常提示文字
     private int netErrorIcon; // 网络异常的图标
@@ -92,12 +84,11 @@ public class ConditionView extends RelativeLayout {
     public ConditionView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         View inflate = View.inflate(context, R.layout.view_condition, this);
-        ButterKnife.bind(this, inflate);
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ConditionView);
         netErrorHint = a.getString(R.styleable.ConditionView_netErrorHint);
         netErrorIcon = a.getResourceId(R.styleable.ConditionView_netErrorIcon, ERROR_RES_ID);
         setFrame(a.getInt(R.styleable.ConditionView_viewCondition, CONTAINER));
-        initView();
+        initView(inflate);
         a.recycle();
     }
 
@@ -119,9 +110,17 @@ public class ConditionView extends RelativeLayout {
         return true;
     }
 
-    private void initView() {
-        setNetErrorHint(netErrorHint);
-        setNetErrorIcon(netErrorIcon);
+    private void initView(View inflate) {
+        mIvLoadingAnim= (ImageView) inflate.findViewById(R.id.iv_loading_anim);
+        mLlLoad=(LinearLayout) inflate.findViewById(R.id.ll_load);
+        mLlEmpty=(LinearLayout) inflate.findViewById(R.id.ll_empty);
+         mIvNetError=(ImageView) inflate.findViewById(R.id.iv_net_error);
+         mTvNetError=(TextView)inflate.findViewById(R.id.tv_net_error);
+         mBtnLoad=(Button)inflate.findViewById(R.id.btn_load);
+         mLlNetError=(LinearLayout) inflate.findViewById(R.id.ll_net_error);
+         mRlContainer=(RelativeLayout) inflate.findViewById(R.id.rl_container);
+         setNetErrorHint(netErrorHint);
+         setNetErrorIcon(netErrorIcon);
     }
 
     /**
