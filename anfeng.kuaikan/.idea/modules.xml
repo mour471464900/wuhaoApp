@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/anfeng.kuaikan.iml" filepath="$PROJECT_DIR$/anfeng.kuaikan.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib.design/lib.design.iml" filepath="$PROJECT_DIR$/lib.design/lib.design.iml" />
+      <module fileurl="file://D:\project\test project\wuhaoApp\anfeng.kuaikan\lib.design\lib.design.iml" filepath="D:\project\test project\wuhaoApp\anfeng.kuaikan\lib.design\lib.design.iml" />
     </modules>
   </component>
 </project>
