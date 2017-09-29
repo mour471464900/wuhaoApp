@@ -18,13 +18,15 @@ import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil
 import com.anfeng.wuhao.anfengkuaikan.utils.URLCommon
 import com.github.jdsjlzx.ItemDecoration.DividerDecoration
 import com.github.jdsjlzx.recyclerview.LRecyclerViewAdapter
-import kotlinx.android.synthetic.main.fragment_main.*
 import com.anfeng.wuhao.anfengkuaikan.utils.ToastUtil
+import kotlinx.android.synthetic.main.fragment_main.*
 
 /**
  * Created by Administrator on 2017/9/14.
  */
 class CartoonDataFragment(): BaseFragment() {
+
+
     //静态常量
     companion object {
         const val ID="id"
@@ -55,10 +57,10 @@ class CartoonDataFragment(): BaseFragment() {
         }
     }
 
-
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_main,container,false)
+    override fun getContentView(): Int {
+      return  R.layout.fragment_main
     }
+
 
     fun requestData() {
         HttpHelper.getInstance().httpGetString(URLCommon.getDayUrl(id), context, object : RequestCallback<String> {
@@ -67,6 +69,7 @@ class CartoonDataFragment(): BaseFragment() {
                 val comics = dateListBean.data.comics
                 if (null != comics && comics.size > 0) {
                     mDateAdapter.setDataList(comics)
+                    loadCompleted()
                 } else {
                     errorForCode(HttpHelper.SYSTEM_ERROR)
                 }
@@ -74,6 +77,7 @@ class CartoonDataFragment(): BaseFragment() {
 
             override fun errorForCode(code: Int) {
                  ToastUtil.toastShort("网络异常")
+                 loadError(""+code)
             }
 
         })
@@ -98,6 +102,9 @@ class CartoonDataFragment(): BaseFragment() {
         rv_main.setLoadMoreEnabled(false)
     }
 
+    override fun onFirstDraw() {
+        loading()
+    }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)

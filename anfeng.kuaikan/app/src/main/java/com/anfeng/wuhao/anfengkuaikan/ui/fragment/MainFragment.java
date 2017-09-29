@@ -69,13 +69,9 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
 
     @org.jetbrains.annotations.Nullable
     @Override
-    public View onCreateView(@org.jetbrains.annotations.Nullable LayoutInflater inflater, @org.jetbrains.annotations.Nullable ViewGroup container, @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
-        View inflate = inflater.inflate(R.layout.activity_main, container, false);
-         mLlMain= (LinearLayout) inflate.findViewById(R.id.ll_main);
-         mRvMain= (LRecyclerView) inflate.findViewById(R.id.rv_main);
-        return inflate;
+    public int getContentView() {
+        return R.layout.activity_main;
     }
-
 
 
 
@@ -109,6 +105,8 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
 
 
     protected void initView() {
+        mLlMain= (LinearLayout) getActivity().findViewById(R.id.ll_main);
+        mRvMain= (LRecyclerView) getActivity().findViewById(R.id.rv_main);
         mConditionView.setDataCondition(DATA_LOADING);
         mDateAdapter = new DateListAdapter(getContext());
         mLRecyclerViewAdapter=new LRecyclerViewAdapter(mDateAdapter);
@@ -138,4 +136,6 @@ public class MainFragment extends BaseFragment implements ConditionView.OnRetryL
          mConditionView.setDataCondition(DATA_LOADING);
          requestData();
     }
+
+
 }

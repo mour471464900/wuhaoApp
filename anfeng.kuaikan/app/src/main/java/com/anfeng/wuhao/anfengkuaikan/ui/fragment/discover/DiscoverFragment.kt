@@ -11,7 +11,7 @@ import com.anfeng.wuhao.anfengkuaikan.R
  *  发现
  */
 class DiscoverFragment: BaseFragment() {
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_discover,container,false)
+    override fun getContentView(): Int {
+        return R.layout.fragment_discover
     }
 }

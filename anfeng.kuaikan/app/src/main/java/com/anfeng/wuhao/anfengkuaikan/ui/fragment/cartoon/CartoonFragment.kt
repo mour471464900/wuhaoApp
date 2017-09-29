@@ -18,12 +18,14 @@ import kotlinx.android.synthetic.main.fragment_cartoon.*
  */
 class CartoonFragment:BaseFragment() {
 
+
     private  var fragments = arrayOf(CartoonCareFragment(),CartoonHotFragment())
 
     private var currItem:Int=0
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_cartoon,container,false)
+
+    override fun getContentView(): Int {
+        return R.layout.fragment_cartoon
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

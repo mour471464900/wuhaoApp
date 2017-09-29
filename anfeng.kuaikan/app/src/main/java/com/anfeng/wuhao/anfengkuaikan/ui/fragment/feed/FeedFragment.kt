@@ -11,7 +11,8 @@ import com.anfeng.wuhao.anfengkuaikan.R
  *   社区
  */
 class FeedFragment: BaseFragment() {
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_feed,container,false)
+    override fun getContentView(): Int {
+        return R.layout.fragment_feed
     }
+
 }

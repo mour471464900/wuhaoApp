@@ -2,7 +2,15 @@ package com.anfeng.wuhao.anfengkuaikan.base;
 
 import android.app.Application;
 import android.content.Context;
+import android.hardware.Camera;
+
+import com.anfeng.wuhao.anfengkuaikan.utils.loadcallback.CustomCallback;
+import com.anfeng.wuhao.anfengkuaikan.utils.loadcallback.EmptyCallback;
+import com.anfeng.wuhao.anfengkuaikan.utils.loadcallback.ErrorCallback;
+import com.anfeng.wuhao.anfengkuaikan.utils.loadcallback.LoadingCallback;
+import com.anfeng.wuhao.anfengkuaikan.utils.loadcallback.TimeoutCallback;
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.kingja.loadsir.core.LoadSir;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.cache.CacheEntity;
 import com.lzy.okgo.cache.CacheMode;
@@ -28,6 +36,18 @@ public class MainApplication extends Application {
         initOkGo();
         LitePal.initialize(this); // 初始化litePal
         mainApplication=this;
+        initLoadSir();
+    }
+
+    private void initLoadSir() {
+        LoadSir.beginBuilder()
+                .addCallback(new ErrorCallback())
+                .addCallback(new EmptyCallback())
+                .addCallback(new LoadingCallback())
+                .addCallback(new TimeoutCallback())
+                .addCallback(new CustomCallback())
+                .setDefaultCallback(LoadingCallback.class)
+                .commit();
     }
 
     public static Context getContext(){

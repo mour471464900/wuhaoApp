@@ -12,8 +12,7 @@ import com.anfeng.wuhao.anfengkuaikan.R
  *  漫画关注
  */
 class CartoonCareFragment: BaseFragment() {
-
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_cartoon_care,container,false)
+    override fun getContentView(): Int {
+       return R.layout.fragment_cartoon_care
     }
 }

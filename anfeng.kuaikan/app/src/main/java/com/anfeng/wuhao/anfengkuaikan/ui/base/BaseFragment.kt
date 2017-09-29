@@ -12,11 +12,11 @@ import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import com.anfeng.game.utils.Dialogs
 import com.anfeng.wuhao.anfengkuaikan.R
+import com.kingja.loadsir.callback.Callback
+import com.kingja.loadsir.core.LoadSir
 
 
 abstract class BaseFragment : Fragment() {
@@ -24,14 +24,12 @@ abstract class BaseFragment : Fragment() {
         val STATUS_EMPTY = "x1"
         val STATUS_NO_EXISTS = "x2"
     }
-
     protected lateinit var activity: AppCompatActivity
-    private var isDraw = false
     private var loadLayout: ViewGroup? = null
     private var loadingDialog: Dialog? = null
-    private var updateDialog: Dialog? = null
     private var isCallSetUserVisibleHint = false
     private var isCallOnActivityCreated = false
+    public var baseView:View? = null
     protected val handler = @SuppressLint("HandlerLeak")
     object : Handler() {
         override fun handleMessage(msg: Message?) {
@@ -44,7 +42,6 @@ abstract class BaseFragment : Fragment() {
 
     protected var isPaused = false
 
-    private var accountExceptionDialog: Dialog? = null
     open fun onBackPressed(): Boolean {
         return false
     }
@@ -53,45 +50,47 @@ abstract class BaseFragment : Fragment() {
         return false
     }
 
+    /**
+     *
+     */
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val main = onCreateNetWrapperView(inflater, container, savedInstanceState) ?: return null
-        val layout = FrameLayout(context)
-        layout.addView(main)
-        layout.addView(inflater?.inflate(R.layout.loading_layout, container, false) as ViewGroup?)
-        return layout
+        var contentView= inflater?.inflate(getContentView(),container,false)
+        var loadService=LoadSir.getDefault().register(contentView,onReloadLister())
+        baseView=loadService.loadLayout
+        return baseView
     }
 
-    open fun onCreateNetWrapperView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+    inner class onReloadLister: Callback.OnReloadListener{
+        override fun onReload(p0: View?) {
+            onNetReload(p0)
+        }
     }
+
+    open fun onNetReload(p0:View?){
+
+    }
+
+    /**
+     *   当回调为null 时，使用的就是自己的视图
+     */
+    abstract  fun getContentView(): Int
+
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         isCallOnActivityCreated = true
         activity = context as AppCompatActivity
-
-        handler.post { callOnFirstDraw() }
         loadLayout = view?.findViewById(R.id.loadLayout) as ViewGroup?
-
-        onLoadErrorListener {
-            onFirstDraw()
-        }
     }
 
     override fun setUserVisibleHint(isVisibleToUser: Boolean) {
         super.setUserVisibleHint(isVisibleToUser)
         if (isVisibleToUser) {
             isCallSetUserVisibleHint = true
-            handler.post { callOnFirstDraw() }
         }
     }
 
-    private fun callOnFirstDraw() {
-        if (isCallOnActivityCreated && isCallSetUserVisibleHint && !isDraw) {
-            onFirstDraw()
-            isDraw = true
-        }
-    }
+
 
     open fun onFirstDraw() {
 
@@ -120,6 +119,7 @@ abstract class BaseFragment : Fragment() {
 
     fun loadError(code: String, primaryText: String = "什么也没有~", subText: String = "", buttonVisible: Int = View.GONE) {
         setLoadUiVisible(View.VISIBLE, View.GONE)
+        if(loadLayout==null) return
         val tipImage = loadLayout?.findViewById(R.id.tipImage) as ImageView
         val tipText = loadLayout?.findViewById(R.id.tipText) as TextView
         val subTipText = loadLayout?.findViewById(R.id.subTipText) as TextView
@@ -146,22 +146,6 @@ abstract class BaseFragment : Fragment() {
         }
     }
 
-    fun showLoadingDialog(desc: String):Dialog? {
-        loadingDialog?.dismiss()
-        Dialogs.showLoadingDialog(context, desc) {
-            loadingDialog = it
-        }
-        return loadingDialog
-    }
-
-    fun onLoadErrorListener(call: () -> Unit) {
-        if (loadLayout == null) return
-        val reload = loadLayout?.findViewById(R.id.reload)
-        reload?.setOnClickListener {
-            call()
-        }
-    }
-
     private fun setLoadUiVisible(errorVisible: Int, loadingVisible: Int, loadlayoutVisible: Int = View.VISIBLE) {
         if (loadLayout == null) return
         val loadError = loadLayout?.findViewById(R.id.loadError)
@@ -170,15 +154,6 @@ abstract class BaseFragment : Fragment() {
         loading?.visibility = loadingVisible
         loadError?.visibility = errorVisible
     }
-
-//    fun userExit() {
-//        val intent = Intent(context, GameActivity.UserLoginActivity::class.java)
-//        if (GameApp.user != null)
-//            intent.putExtra(UserLoginFragment.USER_NAME, GameApp.user?.userName)
-//        GameApp.token = null
-//        GameApp.user = null
-//        startActivity(intent)
-//    }
 
     open fun onFinish() {
 
@@ -197,20 +172,6 @@ abstract class BaseFragment : Fragment() {
     open protected fun onHandleMessage(msg: Message?) {
 
     }
-
-//    fun showAEDialog(context: Context) {
-//        accountExceptionDialog?.dismiss()
-//        Dialogs.showAccountExceptionDialog(context) {
-//            accountExceptionDialog = it
-//        }
-//    }
-
-//    fun showUpdateDialog(context: Context, model: UpdateModel) {
-//        updateDialog?.dismiss()
-//        Dialogs.showUpdateDialog(context, model) {
-//            updateDialog = it
-//        }
-//    }
 
     fun fragmentIsDestroyView(): Boolean {
         return view == null

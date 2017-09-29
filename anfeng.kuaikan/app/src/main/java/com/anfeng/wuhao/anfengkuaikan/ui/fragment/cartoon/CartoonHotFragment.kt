@@ -18,6 +18,7 @@ import java.util.*
  */
 class CartoonHotFragment:BaseFragment() {
 
+
     private val urlNum = longArrayOf((Date().time - 24 * 60 * 60 * 1000 * 7) / 1000, (Date().time - 24 * 60 * 60 * 1000 * 6) / 1000, (Date().time - 24 * 60 * 60 * 1000 * 5) / 1000, (Date().time - 24 * 60 * 60 * 1000 * 4) / 1000, (Date().time - 24 * 60 * 60 * 1000 * 3) / 1000, 1, 0)//           ，动态1      ,动态2,         动态3,       动态4,      动态5    ，昨天   今天
     //    周一到  周日  让 title 显示不同天数的数组
     private val day1 = arrayOf("周二", "周三", "周四", "周五", "周六", "昨天", "今天")
@@ -33,10 +34,9 @@ class CartoonHotFragment:BaseFragment() {
     private var titleList: List<String> = ArrayList()
 
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater?.inflate(R.layout.fragment_cartoon_hot,container,false)
+    override fun getContentView(): Int {
+       return  R.layout.fragment_cartoon_hot
     }
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         initView()
@@ -46,7 +46,7 @@ class CartoonHotFragment:BaseFragment() {
         titleList=initTitle()
         fragmentList=initFragment()
         viewPager.adapter=CartoonAdapter(childFragmentManager)
-        viewPager.offscreenPageLimit=3
+        viewPager.offscreenPageLimit=1
         detailTabs.setupWithViewPager(viewPager)
         viewPager.setCurrentItem(fragmentList.size,false)
     }
