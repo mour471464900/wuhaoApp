@@ -16,6 +16,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.anfeng.wuhao.anfengkuaikan.R
 import com.kingja.loadsir.callback.Callback
+import com.kingja.loadsir.core.LoadService
 import com.kingja.loadsir.core.LoadSir
 
 
@@ -29,7 +30,8 @@ abstract class BaseFragment : Fragment() {
     private var loadingDialog: Dialog? = null
     private var isCallSetUserVisibleHint = false
     private var isCallOnActivityCreated = false
-    public var baseView:View? = null
+    var baseView:View? = null
+    lateinit var  loadService: LoadService<*>
     protected val handler = @SuppressLint("HandlerLeak")
     object : Handler() {
         override fun handleMessage(msg: Message?) {
@@ -50,15 +52,22 @@ abstract class BaseFragment : Fragment() {
         return false
     }
 
+
+
     /**
      *
      */
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var contentView= inflater?.inflate(getContentView(),container,false)
-        var loadService=LoadSir.getDefault().register(contentView,onReloadLister())
-        baseView=loadService.loadLayout
-        return baseView
+        baseView= inflater?.inflate(getContentView(),container,false)
+        loadService=LoadSir.getDefault().register(baseView,onReloadLister())
+        return loadService.loadLayout
     }
+
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        loadNet()
+    }
+
 
     inner class onReloadLister: Callback.OnReloadListener{
         override fun onReload(p0: View?) {
@@ -70,10 +79,16 @@ abstract class BaseFragment : Fragment() {
 
     }
 
+    open fun loadNet(){
+
+    }
+
     /**
-     *   当回调为null 时，使用的就是自己的视图
+     *  使用该方法时就可以使用 loadSir
      */
-    abstract  fun getContentView(): Int
+    open  fun getContentView(): Int{
+        return 0
+    }
 
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

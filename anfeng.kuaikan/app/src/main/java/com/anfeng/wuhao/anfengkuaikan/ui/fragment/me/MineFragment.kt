@@ -10,7 +10,7 @@ import com.anfeng.wuhao.anfengkuaikan.R
  *  我的
  */
 class MineFragment: com.anfeng.game.ui.BaseFragment() {
-    override fun getContentView(): Int {
-       return  R.layout.fragemnt_mine
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater?.inflate(  R.layout.fragemnt_mine,container,false)
     }
 }

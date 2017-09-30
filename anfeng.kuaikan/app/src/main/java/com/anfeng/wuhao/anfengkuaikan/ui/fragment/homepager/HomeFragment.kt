@@ -30,8 +30,8 @@ class HomeFragment : com.anfeng.game.ui.BaseFragment() {
     val fragments= arrayOf(CartoonFragment(),DiscoverFragment(),FeedFragment(),MineFragment())
     val titles = arrayOf("漫画","发现","V社区","我的")
 
-    override fun getContentView(): Int {
-       return  R.layout.fragment_home
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater?.inflate( R.layout.fragment_home,container,false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

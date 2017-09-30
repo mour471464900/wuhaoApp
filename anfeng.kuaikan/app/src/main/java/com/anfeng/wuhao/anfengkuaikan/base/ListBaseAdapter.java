@@ -36,6 +36,11 @@ public abstract class ListBaseAdapter<T> extends RecyclerView.Adapter<SuperViewH
         onBindItemHolder(holder, position);
     }
 
+    @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
+    }
+
     //局部刷新关键：带payload的这个onBindViewHolder方法必须实现
     @Override
     public void onBindViewHolder(SuperViewHolder holder, int position, List<Object> payloads) {

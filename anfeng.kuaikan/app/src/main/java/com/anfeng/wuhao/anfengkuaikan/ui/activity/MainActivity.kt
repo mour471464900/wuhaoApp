@@ -7,6 +7,7 @@ import android.view.KeyEvent
 import com.anfeng.game.ui.BaseFragment
 import com.anfeng.wuhao.anfengkuaikan.R
 import com.anfeng.wuhao.anfengkuaikan.ui.fragment.homepager.HomeFragment
+import com.anfeng.wuhao.anfengkuaikan.ui.fragment.web.WebFragment
 import com.anfeng.wuhao.anfengkuaikan.utils.KotlinUtil
 
 /**
@@ -72,6 +73,13 @@ open class MainActivity :AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             fragment= HomeFragment()
+        }
+    }
+
+    class  WebActivity:MainActivity(){
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            fragment= WebFragment()
         }
     }
 }

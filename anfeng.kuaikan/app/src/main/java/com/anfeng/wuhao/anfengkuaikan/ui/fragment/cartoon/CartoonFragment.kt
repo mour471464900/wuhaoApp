@@ -1,5 +1,6 @@
 package com.anfeng.wuhao.anfengkuaikan.ui.fragment.cartoon
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
@@ -11,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.RadioButton
 import com.anfeng.game.ui.BaseFragment
 import com.anfeng.wuhao.anfengkuaikan.R
+import com.jakewharton.rxbinding2.view.RxView
 import kotlinx.android.synthetic.main.fragment_cartoon.*
 
 /**
@@ -24,9 +26,11 @@ class CartoonFragment:BaseFragment() {
     private var currItem:Int=0
 
 
-    override fun getContentView(): Int {
-        return R.layout.fragment_cartoon
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater?.inflate(R.layout.fragment_cartoon,container,false)
     }
+
+
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
@@ -35,6 +39,10 @@ class CartoonFragment:BaseFragment() {
         viewPager.setCurrentItem(1,false)
         for(i in 0 until radioTop.childCount){
             radioTop.getChildAt(i).setOnClickListener(tabClick)
+        }
+        RxView.clicks(search).subscribe {
+            var intent =Intent(activity,SearchActivity::class.java)
+            startActivity(intent)
         }
     }
 

@@ -13,7 +13,6 @@ import com.anfeng.wuhao.anfengkuaikan.bean.DateListBean;
 import com.anfeng.wuhao.anfengkuaikan.bean.UserInfo;
 import com.anfeng.wuhao.anfengkuaikan.inter.RequestCallback;
 import com.anfeng.wuhao.anfengkuaikan.net.HttpHelper;
-import com.anfeng.wuhao.anfengkuaikan.ui.fragment.cartoon.SearchActivity;
 import com.anfeng.wuhao.anfengkuaikan.utils.AppUtil;
 import com.anfeng.wuhao.anfengkuaikan.utils.GsonUtils;
 import com.anfeng.wuhao.anfengkuaikan.utils.LogUtil;
@@ -42,7 +41,7 @@ import static com.lzy.okgo.OkGo.getContext;
  * =============================
  */
 
-public class TestActivity extends BaseActivity implements OnRefreshListener ,LoadingFrameView.OnRetryListener, OnItemClickListener, View.OnClickListener {
+public class TestActivity extends BaseActivity implements OnRefreshListener ,LoadingFrameView.OnRetryListener, OnItemClickListener {
 
     LRecyclerView mRvMain;
     LoadingFrameView mFrameView;
@@ -118,8 +117,6 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         if(list!=null&&list.size()>0){
             LogUtil.e(getTag(),"用户名"+list.get(0).getUsername()+"用户token"+list.get(0).getToken());
         }
-        mLlSearch.setOnClickListener(this);
-
     }
 
     @Override
@@ -145,15 +142,6 @@ public class TestActivity extends BaseActivity implements OnRefreshListener ,Loa
         super.onDestroy();
         if(floatingBall!=null){
             floatingBall.remove();
-        }
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.search:
-                startActivity(new Intent(this,SearchActivity.class));
-                break;
         }
     }
 }

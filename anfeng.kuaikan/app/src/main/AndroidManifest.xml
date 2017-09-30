@@ -36,7 +36,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+      <activity android:name=".ui.activity.MainActivity$WebActivity"/>
+      <activity android:name=".ui.fragment.cartoon.SearchActivity"/>
     </application>
 
 </manifest>

@@ -33,10 +33,10 @@ class CartoonHotFragment:BaseFragment() {
     //    fragment 的集合
     private var titleList: List<String> = ArrayList()
 
-
-    override fun getContentView(): Int {
-       return  R.layout.fragment_cartoon_hot
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater?.inflate( R.layout.fragment_cartoon_hot,container,false)
     }
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         initView()
