@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+    <com.anfeng.wuhao.anfengkuaikan.ui.view.AppImage
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:id="@+id/iv_cartoon"
+        tools:src="@drawable/bg_attention_comic_empty"
+        />
+    <TextView
+        android:id="@+id/tv_cartoon_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="海贼王"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/tv_cartoon_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="海贼王"
+        android:textColor="@color/af_c666666"
+        android:textSize="10sp"
+        />
+</LinearLayout>
