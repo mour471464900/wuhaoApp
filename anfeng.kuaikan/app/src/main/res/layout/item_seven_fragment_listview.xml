@@ -100,6 +100,7 @@
             android:layout_marginRight="10dp"
             android:textSize="15sp"
             android:maxEms="5"
+            android:textColor="@color/af_c999999"
             android:checked="false" />
 
         <CheckBox
@@ -109,6 +110,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:maxEms="5"
+            android:textColor="@color/af_c999999"
             tools:text="1726"/>
     </LinearLayout>
 </LinearLayout>

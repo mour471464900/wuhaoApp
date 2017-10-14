@@ -128,4 +128,12 @@ public static final String SEARCH_START="http://api.kuaikanmanhua.com/v1/topics/
       return   "http://api.kuaikanmanhua.com/v2/topic/search/new_hot_word?since="+since+"&count=10";
     }
 
+    /**
+     * 发现列表
+     * @return
+     */
+    public static String getDiscoverList(){
+        return "http://api.kuaikanmanhua.com/v1/topic_new/discovery_list?gender=1&operator_count=4";
+    }
+
 }

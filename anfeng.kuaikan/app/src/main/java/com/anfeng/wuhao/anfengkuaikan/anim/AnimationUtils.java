@@ -32,6 +32,7 @@ import com.nineoldandroids.animation.ValueAnimator;
  *
  */
 public class AnimationUtils {
+
 	public static final int VIEW_ANIMATION_DURATION = 500;
 	private static final ColorDrawable TRANSPARENT_DRAWABLE = new ColorDrawable(Color.TRANSPARENT);
 

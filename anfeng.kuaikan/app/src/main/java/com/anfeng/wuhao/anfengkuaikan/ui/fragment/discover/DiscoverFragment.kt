@@ -68,6 +68,12 @@ class DiscoverFragment: BaseFragment() {
         override fun getCount(): Int {
             return  fragments.size
         }
+
+        override fun destroyItem(container: ViewGroup?, position: Int, `object`: Any?) {
+            var beginTransaction = childFragmentManager.beginTransaction()
+            beginTransaction.remove(`object` as Fragment?)
+            beginTransaction.commit()
+        }
     }
 
     inner class CartoonPagerListener: ViewPager.OnPageChangeListener{

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.github.jdsjlzx.recyclerview.LRecyclerView
+<LinearLayout
     xmlns:anroid="http://schemas.android.com/apk/res/android"
-    anroid:id="@+id/rvMain"
+     anroid:layout_height="match_parent"
     anroid:layout_width="match_parent"
-    anroid:layout_height="match_parent" />
+    anroid:orientation="vertical"
+    >
+    <android.support.v7.widget.RecyclerView
+        anroid:id="@+id/rvMain"
+        anroid:layout_width="match_parent"
+        anroid:layout_height="match_parent" />
+</LinearLayout>
+

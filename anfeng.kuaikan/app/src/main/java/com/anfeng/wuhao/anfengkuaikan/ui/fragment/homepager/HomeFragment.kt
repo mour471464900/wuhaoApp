@@ -13,6 +13,7 @@ import android.widget.RadioButton
 import com.anfeng.wuhao.anfengkuaikan.R
 import com.anfeng.wuhao.anfengkuaikan.ui.fragment.cartoon.CartoonFragment
 import com.anfeng.wuhao.anfengkuaikan.ui.fragment.discover.DiscoverFragment
+import com.anfeng.wuhao.anfengkuaikan.ui.fragment.discover.DiscoverRecommendFragment
 import com.anfeng.wuhao.anfengkuaikan.ui.fragment.feed.FeedFragment
 import com.anfeng.wuhao.anfengkuaikan.ui.fragment.me.MineFragment
 import com.anfeng.wuhao.anfengkuaikan.utils.ToastUtil
@@ -37,7 +38,6 @@ class HomeFragment : com.anfeng.game.ui.BaseFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewPager.adapter= HomeAdapter(childFragmentManager)
-        viewPager.offscreenPageLimit=3
         val count=homeTabs.childCount
         for(i in 0 until count){
             homeTabs.getChildAt(i).setOnClickListener(tabClick)
@@ -56,6 +56,7 @@ class HomeFragment : com.anfeng.game.ui.BaseFragment() {
         override fun getPageTitle(position: Int): CharSequence {
             return titles[position]
         }
+
     }
 
     private var tabClick={ v:View ->

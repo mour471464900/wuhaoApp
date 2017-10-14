@@ -2,6 +2,7 @@ package com.anfeng.wuhao.anfengkuaikan.utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.os.Build;
 import android.util.DisplayMetrics;
@@ -10,6 +11,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.List;
 
 /**
@@ -104,7 +108,28 @@ public class AppUtil {
         return (int) (dipValue * scale + 0.5f);
     }
 
-
+    /**
+     * 读取json 数据
+     * @param context
+     * @param fileName
+     * @return
+     */
+    public static  String getJson(Context context,String fileName){
+        StringBuilder stringBuilder = new StringBuilder();
+        try {
+            AssetManager assetManager = context.getAssets();
+            BufferedReader bf = new BufferedReader(new InputStreamReader(
+                    assetManager.open(fileName)));
+            String line;
+            while ((line = bf.readLine()) != null) {
+                stringBuilder.append(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        LogUtil.e("json","获取json数据成功");
+        return stringBuilder.toString();
+    }
 
 
 }

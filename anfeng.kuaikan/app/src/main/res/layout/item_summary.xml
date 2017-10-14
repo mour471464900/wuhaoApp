@@ -4,7 +4,7 @@
     android:layout_width="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="wrap_content">
-    <com.anfeng.wuhao.anfengkuaikan.ui.view.AppImage
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
@@ -20,7 +20,7 @@
         android:textSize="12sp"
         />
     <TextView
-        android:id="@+id/tv_cartoon_"
+        android:id="@+id/tv_cartoon_intro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="海贼王"

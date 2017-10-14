@@ -1,0 +1,3297 @@
+
+{
+  "code": 200,
+  "data": {
+    "infos": [
+    {
+      "action_type": 0,
+      "item_type": 1,
+      "action": "",
+      "title": "新版轮播图",
+      "banners": [
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 52700,
+          "pic": "http://f2.kkmh.com/image/171012/f23akkha4.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "云养汉",
+          "id": 2839,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 43726,
+          "pic": "http://f2.kkmh.com/image/171009/7uxchue75.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "大辰诡案录",
+          "id": 2835,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 51109,
+          "pic": "http://f2.kkmh.com/image/171001/v1temi8pb.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "第二模式",
+          "id": 2809,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 42877,
+          "pic": "http://f2.kkmh.com/image/171002/18gh0unn1.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "新娘的假面",
+          "id": 2834,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 32198,
+          "pic": "http://f2.kkmh.com/image/170922/d3ibenmu4.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "情绪芯片",
+          "id": 2766,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "target_id": 47671,
+          "pic": "http://f2.kkmh.com/image/170915/wti31t7jc.webp",
+          "type": 3,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "猎物",
+          "id": 2749,
+          "request_id": "INTERVAL_PLAY-1507948627534",
+          "good_alias": "",
+          "chapter_count": 6
+        }
+      ]
+    },
+    {
+      "action_type": 0,
+      "item_type": 13,
+      "action": "",
+      "title": "排行榜",
+      "banners": [
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "click_count_limit": 0,
+          "target_id": 0,
+          "loop_count_limit": 1,
+          "pic": "http://f2.kkmh.com/image/170929/ek305ikfq.webp",
+          "type": 18,
+          "cold_boot_count": 1,
+          "target_package_name": "",
+          "hybrid_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?v=401",
+          "target_web_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?v=401",
+          "target_title": "排行榜",
+          "gif_pic": "http://f2.kkmh.com/image/170929/zza8u8vmg.webp",
+          "run_time_limit": 1,
+          "id": 2794,
+          "request_id": "-1",
+          "good_alias": "",
+          "chapter_count": 4
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "click_count_limit": 0,
+          "target_id": 0,
+          "loop_count_limit": 0,
+          "pic": "http://f2.kkmh.com/image/170929/cs63qx5t1.webp",
+          "type": 18,
+          "cold_boot_count": 0,
+          "target_package_name": "",
+          "hybrid_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?rank=2",
+          "target_web_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?rank=2",
+          "target_title": "新作榜",
+          "gif_pic": "http://f2.kkmh.com/image/170929/swigd9p3v.webp",
+          "run_time_limit": 0,
+          "id": 2795,
+          "request_id": "-1",
+          "good_alias": "",
+          "chapter_count": 4
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "click_count_limit": 0,
+          "target_id": 0,
+          "loop_count_limit": 0,
+          "pic": "http://f2.kkmh.com/image/170929/swmwvseea.webp",
+          "type": 18,
+          "cold_boot_count": 0,
+          "target_package_name": "",
+          "hybrid_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?rank=3",
+          "target_web_url": "http://www.kuaikanmanhua.com/webapp/rank/rank-all.html?rank=3",
+          "target_title": "完结榜",
+          "gif_pic": "http://f2.kkmh.com/image/170929/m6olpxioh.webp",
+          "run_time_limit": 0,
+          "id": 2796,
+          "request_id": "-1",
+          "good_alias": "",
+          "chapter_count": 4
+        },
+        {
+          "target_app_url": "",
+          "good_price": "",
+          "sub_title": "",
+          "special_list_url": "",
+          "click_count_limit": 0,
+          "target_id": 2,
+          "loop_count_limit": 1,
+          "pic": "http://f2.kkmh.com/image/170929/5tkixa6eo.webp",
+          "type": 17,
+          "cold_boot_count": 1,
+          "target_package_name": "",
+          "hybrid_url": "",
+          "target_web_url": "",
+          "target_title": "分类榜",
+          "gif_pic": "http://f2.kkmh.com/image/170929/vzqq7g3pq.webp",
+          "run_time_limit": 1,
+          "id": 2797,
+          "request_id": "-1",
+          "good_alias": "",
+          "chapter_count": 4
+        }
+      ]
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 18,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 1,
+          "label_color": "#1e4691",
+          "description": "唐代末期，朝纲动乱之际 各地怪事横行 特此朝廷内部组建了一个针对特殊事件的案件调查组 名为\u201c玄道寺\u201d。\r\n思维缜密具备超常视力的少女，和被命运诅咒的异能少年一起，为你揭开垂暮王朝阴影之下，光怪陆离的故事。【独家/每周三更新；责编：吴半石】",
+          "target_id": 1552,
+          "pic": "http://f2.kkmh.com/image/171010/n0wdtk9eh.webp",
+          "type": 2,
+          "title": "玄道寺",
+          "recommended_text": "大唐探案组驾到！",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["奇幻"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "光速涡轮24",
+            "reg_type": "author",
+            "id": 90710199
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 1,
+          "label_color": "#ff7300",
+          "description": "高冷的喵星人原则：看心情。\r\n家里的狗和主人，都是喵主子的玩物！\r\n\r\n【授权/每周二更新  责编：水原】",
+          "target_id": 68,
+          "pic": "http://f2.kkmh.com/image/171010/3150bxjfx.webp",
+          "type": 2,
+          "title": "就喜欢你看不惯我又干不掉我的样子",
+          "recommended_text": "猫主子与小跟班的日常",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "日常",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150421/z5yh40lvr.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "吾皇的白茶",
+            "reg_type": "weibo",
+            "id": 196
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 1,
+          "label_color": "#1e4691",
+          "description": "\u201c第二模式\u201dapp，是一款能让人拥有超能力的软件。性格懦弱的高中生叶秋无意之中收到了试玩邀请，获得了听见心声的能力，而他的妹妹叶紫也因为被变态杀人狂袭击而受了重伤。叶秋决定用\u201c第二模式\u201d的能力查出真凶，可他还不知道，获得能力的人，不止他一个\u2026\u2026【独家/每周日更新 责编：林早上】",
+          "target_id": 1505,
+          "pic": "http://f2.kkmh.com/image/171009/45c7dbybk.webp",
+          "type": 2,
+          "title": "第二模式",
+          "recommended_text": "第二模式，为复仇而生！",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["剧情"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150829/9rjo49xh8.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "幽·灵（良筑良作）",
+            "reg_type": "weibo",
+            "id": 31
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 1,
+          "label_color": "#ff5a7d",
+          "description": "夏达重新出道之首部作品！唯美古风，全彩投放！快看全球中文版首发，这是遗落在漫漫时光中属于角色们的个人志，同时也是一个个全新而独立的故事。【授权/不定期更新  责编：33】\r\n",
+          "target_id": 1538,
+          "pic": "http://f2.kkmh.com/image/171009/prx72hd4i.webp",
+          "type": 2,
+          "title": "拾遗录",
+          "recommended_text": "墨里拾遗，再遇夏达",
+          "likes_count": 0,
+          "label_text": "古风",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["古风"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "编绘 / 夏达",
+            "reg_type": "author",
+            "id": 89847593
+          },
+          "label_id": 48
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/242",
+      "style": 2,
+      "title": "本周热门推荐"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "十年《偷星》，带着记忆归来！黑月铁骑的魅影再次闪现，继续这场爱与梦的冒险！！！【独家/每周三更新 责编：HONG】",
+          "target_id": 1228,
+          "pic": "http://f2.kkmh.com/image/170905/zqsgub9o4.webp",
+          "type": 2,
+          "title": "偷星九月天前传",
+          "recommended_text": "奇幻 经典 回归",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "奇幻"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170707/8e0wqis5w.webp-w180.w",
+            "grade": 1,
+            "nickname": "周洪滨+小松",
+            "reg_type": "author",
+            "id": 82914546
+          },
+          "label_id": 25
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "现象级超经典作品，在整容游戏App上美化自己的照片，现实中脸就会跟着变美！但每一次改变都要付出相应的代价，可能会伤害你的朋友、恋人、家人！这样的App你愿意使用吗？连载一年长期霸榜TOP3，亿万超火爆热度，新人必看！  \r\n【独家/每周六更新  责编：33 】",
+          "target_id": 544,
+          "pic": "http://f2.kkmh.com/image/170711/2ug4aks71.webp",
+          "type": 2,
+          "title": "整容游戏",
+          "recommended_text": "奇幻 经典 剧情",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["奇幻"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150918/jdla02iby.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "金丘",
+            "reg_type": "author",
+            "id": 2967943
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "企鹅影视出品，晋江文学城同名小说改编，原作小说作者为晋江大神级作者：非天夜翔。2013年，丧尸潮爆发故土沦陷，人类展开一场大规模保卫战！主角们在长夜中等候黎明的到来末日来临之际，何去何从？【授权连载/10月26日开始更新】",
+          "target_id": 1526,
+          "pic": "http://f2.kkmh.com/image/171006/wywbi0fyt.webp",
+          "type": 2,
+          "title": "末日曙光",
+          "recommended_text": "末世 惊悚 剧情",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "都市"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170926/29g9qdcoo.webp-w180.w",
+            "grade": 1,
+            "nickname": "银狐之殇",
+            "reg_type": "author",
+            "id": 89789070
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "常发生暴力事件的黑暗巷子里，出现了一个少年的身影\u2014\u2014风驰电掣，以暴制暴！能轻松克敌的他，不久前却是饱受校园欺凌的怂包。他身上到底发生了什么？【独家/每周三更新或支付KK币抢先看 责编：半石】\t",
+          "target_id": 1098,
+          "pic": "http://f2.kkmh.com/image/170505/4mw9htfym.webp",
+          "type": 2,
+          "title": "悲伤的拳头",
+          "recommended_text": "校园 热血 剧情",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["少年"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "王伟",
+            "reg_type": "author",
+            "id": 40247858
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "《自来水之污》作者新作！一场自来水污染，导致女性肌肉力量大增。纯情少女变身黑道老大，百合之风在社会盛行。一帮女人的霸气碾压之路，即将开始！【独家/每周六更新 责编：楚宁】",
+          "target_id": 1402,
+          "pic": "http://f2.kkmh.com/image/170825/mgyoul519.webp",
+          "type": 2,
+          "title": "暴力女王",
+          "recommended_text": "剧情 奇幻 热血",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "都市"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/160530/744atwg2u.webp-w180.w",
+            "grade": 1,
+            "nickname": "潇潇潇潇如",
+            "reg_type": "author",
+            "id": 6021212
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "二十一世纪的今天，武林门派在世俗世界秘密存在，最有威望的凤天宗宗主凤来音突然逝世，临终前竟将宗主之位传给了自己8岁的小孙子，震惊武林。\r\n小小掌门是一个高武低能的小武痴，虽天纵奇才却不谙世事。精通奇门遁甲、五行八卦，不会穿衣却会诸多深奥武学。少年老成竟出口就是大道理，稚子纯心却毫无生活常识，更不知道所谓童趣童真。\r\n等待着他的，会是怎样的冒险呢？【独家/每周四更新 责编：大树】\r\n",
+          "target_id": 1385,
+          "pic": "http://f2.kkmh.com/image/170821/44x69oaen.webp",
+          "type": 2,
+          "title": "掌门八岁",
+          "recommended_text": "武林 正太 日常",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "爆笑",
+            "少年"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170823/4knzxsl6b.webp-w180.w",
+            "grade": 1,
+            "nickname": "螺旋",
+            "reg_type": "author",
+            "id": 87969555
+          },
+          "label_id": 42
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/241",
+      "style": 2,
+      "title": "极致少年漫"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 14,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "因为可以预见死亡，她被视为不祥之人，为了帮助那些将死的人，她与死神展开抗争\u2026\u2026当她真正遇上死神，却发现，死神竟是一直在她身边之人！？ 【独家/每周五更新  责编：33】",
+          "target_id": 1517,
+          "pic": "http://f2.kkmh.com/image/170921/eydnn8gfv.webp",
+          "type": 2,
+          "title": "夺命倒计时",
+          "recommended_text": "预见死亡的异瞳少女",
+          "likes_count": 171786,
+          "label_text": "剧情",
+          "comments_count": 6800,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "剧情"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170921/27ajxdc03.webp-w180.w",
+            "grade": 1,
+            "nickname": "触漫",
+            "reg_type": "author",
+            "id": 89514002
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#7c5099",
+          "description": "发生在民国的中短篇集。猎奇的设定、精巧的构思、烧脑的伏笔、反转的结局，能让你拍案叫绝的佳作，喜欢推理类漫画的你不能错过！【独家/不定期更新 责编：大树】",
+          "target_id": 786,
+          "pic": "http://f2.kkmh.com/image/160427/wttff9j29.webp",
+          "type": 2,
+          "title": "百诡夜谭",
+          "recommended_text": "民国时期的灵异故事集",
+          "likes_count": 12024963,
+          "label_text": "灵异",
+          "comments_count": 285228,
+          "label_text_color": "#ffffff",
+          "category": ["灵异"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/160427/0uh8a8fyr.webp-w180.w",
+            "grade": 1,
+            "nickname": "AGP崇阳",
+            "reg_type": "author",
+            "id": 10987560
+          },
+          "label_id": 16
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "改编自真实事件《三个女孩一包鼠药》。你和我玩，我要杀了你；不和我玩，我还要杀了你。这个12岁少女的身上到底发生了什么？【非独家/已完结 责编：a7】\t",
+          "target_id": 1502,
+          "pic": "http://f2.kkmh.com/image/170922/7ksr95zkm.webp",
+          "type": 2,
+          "title": "毒可乐杀人事件",
+          "recommended_text": "三个女孩和一包鼠药",
+          "likes_count": 116443,
+          "label_text": "剧情",
+          "comments_count": 3385,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/160722/48lc0pxhu.webp-w180.w",
+            "grade": 1,
+            "nickname": "golo_高佬",
+            "reg_type": "author",
+            "id": 18271637
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#7c5099",
+          "description": "这是一个被诡异大雾笼罩的城市，可怕的怪物和诡奇的异事藏身雾中，就等倒霉鬼上钩！让人脊背发凉的恐怖系列故事即将展开【独家/每周五更新 责编：大树】",
+          "target_id": 1096,
+          "pic": "http://f2.kkmh.com/image/170505/s3hje8wlz.webp",
+          "type": 2,
+          "title": "山林怪谈",
+          "recommended_text": "让人脊背发凉的恐怖故事",
+          "likes_count": 1604424,
+          "label_text": "灵异",
+          "comments_count": 42606,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "灵异"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/170503/etjbrdrjt.webp-w180.w",
+            "grade": 1,
+            "nickname": "山林界",
+            "reg_type": "author",
+            "id": 40140212
+          },
+          "label_id": 16
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/238",
+      "style": 2,
+      "title": "烧脑故事汇"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "时值\"大海贼时代\"。路飞为实现与因救他而断臂的香克斯的约定而出海，他在旅途中不断寻找志同道合的伙伴，开始了以成为海贼王为目标的伟大的冒险旅程。",
+          "target_id": 1338,
+          "pic": "http://f2.kkmh.com/image/170727/s5007doyq.webp",
+          "type": 2,
+          "title": "航海王（海贼王）",
+          "recommended_text": "冒险 少年 经典",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "尾田荣一郎",
+            "reg_type": "author",
+            "id": 87859898
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "身为大地守护神的雅典娜与邪神们展开了无数次圣战。与此同时，人类中一些骁勇善战、正义善良的少年\u2014\u2014\u201c雅典娜的圣斗士\u201d，也围绕在女神身边和她并肩作战。",
+          "target_id": 1345,
+          "pic": "http://f2.kkmh.com/image/170820/bkic50sn7.webp",
+          "type": 2,
+          "title": "圣斗士星矢",
+          "recommended_text": "童年 圣衣 热血",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "车田正美",
+            "reg_type": "author",
+            "id": 87859964
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "将散落在世界各地的七颗珠子全部集齐后，便可以实现任何一个愿望的秘宝\u2014\u2014龙珠。独自住在深山的少年孙悟空，遇上收集七龙珠的少女科学家布尔玛，踏上找寻七龙珠的旅程。",
+          "target_id": 1349,
+          "pic": "http://f2.kkmh.com/image/170821/rrn7h3xjw.webp",
+          "type": 2,
+          "title": "龙珠",
+          "recommended_text": "经典 悟空 鸟山明",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "鸟山明",
+            "reg_type": "author",
+            "id": 87859941
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "拥有光和暗两个心灵的少年，人称\u201c游戏王\u201d的武藤游戏为了救回灵魂被囚禁的爷爷，与伙伴们前往决斗者王国找贝卡斯决斗，与互信的伙伴们以及心中的另一个自己并肩作战。",
+          "target_id": 1350,
+          "pic": "http://f2.kkmh.com/image/170728/5sxddsf3g.webp",
+          "type": 2,
+          "title": "游戏王",
+          "recommended_text": "卡牌 经典 热血",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "高桥和希",
+            "reg_type": "author",
+            "id": 87859975
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "看似暴力单薄，实则善良勇敢、爱护家庭的少年黑崎一护，拥有能看见灵的体质。直到遇见了死神\u2022朽木露琪亚后，他身边的一切事物开始了翻天覆地的变化。",
+          "target_id": 1340,
+          "pic": "http://f2.kkmh.com/image/170821/cu3wu027g.webp",
+          "type": 2,
+          "title": "境·界（Bleach死神）",
+          "recommended_text": "热血 卍解 少年",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "久保带人",
+            "reg_type": "author",
+            "id": 87859922
+          },
+          "label_id": 42
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#cc6ac7",
+          "description": "被誉为网球天才少年的越前龙马，在青春学园网球部中遇到了实力强劲的前辈们，但他以惊人的实力，最终赢得了前辈们的认可正式加入了校队，开始了通往全国大赛的奋斗之路。",
+          "target_id": 1351,
+          "pic": "http://f2.kkmh.com/image/170728/hxu7bsmxv.webp",
+          "type": 2,
+          "title": "网球王子",
+          "recommended_text": "体育 网球 少年",
+          "likes_count": 0,
+          "label_text": "热血",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "少年",
+            "日漫"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "许斐刚",
+            "reg_type": "author",
+            "id": 87863333
+          },
+          "label_id": 42
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/274",
+      "style": 2,
+      "title": "日漫专区"
+    },
+    {
+      "action_type": 0,
+      "item_type": 7,
+      "action": "",
+      "title": "通栏 banner  男",
+      "banners": [{
+        "target_app_url": "",
+        "good_price": "",
+        "sub_title": "",
+        "special_list_url": "",
+        "target_id": 33695,
+        "pic": "http://f2.kkmh.com/image/170801/tn01fs911.webp",
+        "type": 3,
+        "target_package_name": "",
+        "hybrid_url": "",
+        "target_web_url": "",
+        "target_title": "",
+        "id": 2374,
+        "request_id": "-1",
+        "good_alias": "",
+        "chapter_count": 1
+      }]
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "丽娜本是贵族家的女仆，她不得不代替主人嫁给出身平民的英雄诺顿。而在这代嫁的秘密之下，丽娜似乎还隐藏着更不为人知的身世。女仆的身份会被发现吗？她又将与诺顿擦出怎样的火花。【独家/每周日更新或支付KK币抢先看 责编：楚宁】",
+          "target_id": 1381,
+          "pic": "http://f2.kkmh.com/image/170818/u9v48wcrg.webp",
+          "type": 2,
+          "title": "新娘的假面",
+          "recommended_text": "恋爱 奇幻",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "奇幻"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170811/sb52j8j8f.webp-w180.w",
+            "grade": 1,
+            "nickname": "出品方：KIDARIENT 作画：Hee Won 原著：Ryu Hyang",
+            "reg_type": "author",
+            "id": 86877491
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "蒋民永远忘不了当兵时女友被别人侮辱的那一幕，女友也为此自杀。他发誓一定要报仇，\u201c复仇呼叫\u201d服务因此进入他的视线。一场以牙还牙的复仇悄然开始。【独家/每周日更新或支付KK币抢先看 责编：楚宁】",
+          "target_id": 1190,
+          "pic": "http://f2.kkmh.com/image/170630/e3mh2gbrc.webp",
+          "type": 2,
+          "title": "复仇出租车",
+          "recommended_text": "复仇之路",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "都市"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "Carlos, KeuKeuJ.J/KTOON",
+            "reg_type": "author",
+            "id": 83179177
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "有一款叫做\u201c恋爱铃\u201d的APP突然横空出世！这是一个神奇的APP，只要喜欢自己的人出现在半径10m内，它就会提醒你！刚开始还有人怀疑APP的功能，如今几乎每个人都在用，爱情真的可以用科技来衡量吗？【独家/每周三更新或支付KK币抢先看 责编：半石】\r\n",
+          "target_id": 1386,
+          "pic": "http://f2.kkmh.com/image/170821/tkjglgra1.webp",
+          "type": 2,
+          "title": "恋爱铃",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["恋爱"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170816/me1217y45.webp-w180.w",
+            "grade": 1,
+            "nickname": "千桂永",
+            "reg_type": "author",
+            "id": 87418431
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#1e4691",
+          "description": "一对情侣无意中登上一艘驶向死亡的游轮，诡异的阴谋和反转不断发生\u2026最终只有一名幸存者！（文字：YD/绘图：Matt/上色：申嘉熙）【独家/每周三更新或支付KK币抢先看 责编：HONG】",
+          "target_id": 1091,
+          "pic": "http://f2.kkmh.com/image/170421/nytqnmty5.webp",
+          "type": 2,
+          "title": "游轮惊魂",
+          "recommended_text": "悬疑 剧情 惊悚",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["剧情"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170418/trawfn6f9.webp-w180.w",
+            "grade": 1,
+            "nickname": "BONcomics",
+            "reg_type": "author",
+            "id": 39170891
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "富甲一方的继父去世后，他和妈妈生活在清贫的小渔村。在20岁的某天，继兄却找上门来，要买他为妾，为了身患绝症的母亲，他决定和继兄离开\u2026\u2026【独家/10月11日起每周三更新或支付KK币抢先看 责编：楚宁】",
+          "target_id": 1545,
+          "pic": "http://f2.kkmh.com/image/170929/ubk8rf4cq.webp",
+          "type": 2,
+          "title": "男妾",
+          "recommended_text": "被金钱禁锢的关系",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "彩虹"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170928/65iktjgr1.webp-w180.w",
+            "grade": 1,
+            "nickname": "Brothers without a tomorrow / U-jewel media",
+            "reg_type": "author",
+            "id": 89848410
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "她本是女校\u201c王子\u201d，因与男校合并，被对方校草抢走风头。她想用一次比赛抢回自己的地位！落败的他成为了她的仆人，乖乖听命居然还觉得超级享受？！【独家/9月16日起每周二更新或支付KK币抢先看 责编：半石】",
+          "target_id": 1486,
+          "pic": "http://f2.kkmh.com/image/170907/0zwwaeqww.webp",
+          "type": 2,
+          "title": "我的仆人大人",
+          "recommended_text": "恋爱 校园",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170911/vlugky0q8.webp-w180.w",
+            "grade": 1,
+            "nickname": "Ryohei Muga",
+            "reg_type": "author",
+            "id": 88890416
+          },
+          "label_id": 44
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/237",
+      "style": 2,
+      "title": "追漫抢先看"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "总裁前夫求我暖床 \r\n结婚两年，她挂着正妻的头衔当着他的暖床，时不时的还要应付他的绯闻，面对前来叫嚣的小三的同时，在床上让他满足\u2026\u2026而他犹如帝王，喜欢她在床上的表现，绝无其他。 ",
+          "target_id": 1300,
+          "pic": "http://f2.kkmh.com/image/170808/wlaws8ybs.webp",
+          "type": 2,
+          "title": "豪门天价前妻",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "iCiyuan动漫闲林",
+            "reg_type": "author",
+            "id": 84152497
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "\u201c不许动我妈！\u201d一男一女两个娃，把恶魔少总堵门外。他瞄上的女人，不但被别人占了先，还结了两个果！\u201c偷心贼你给我出来！\u201d面对疯狂咆哮帝，辣妈很纯很无辜\u2026\u2026N年前，被无辜污了清白，是她的错吗？拜托变态占有狂，她也是受害者好不好！咦？这男人肿么和自己儿子有点像？莫非\u2026\u2026【有鹿文化授权/每周三、周六更新 应版权方要求，此作品需支付KK币阅读 责编：漠漠】",
+          "target_id": 1065,
+          "pic": "http://f2.kkmh.com/image/170510/df1p9jru9.webp",
+          "type": 2,
+          "title": "霸情恶少：调教小逃妻",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170413/xsc55q4tv.webp-w180.w",
+            "grade": 1,
+            "nickname": "有鹿文化",
+            "reg_type": "author",
+            "id": 38864302
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "慕潇潇是杀手雇佣中心的顶级杀手，然而精明能干的她却被自己的小阿姨以庆生为由设下圈套，将她扔给了一个陌生男人，还怀上了他的孩子。清醒过来的她一气之下把对方用来关押她的房子一把火少了个干净。六年后，宝宝阴差阳错的被黑夜帝国的人抓走。无奈之下，她只有重新捡起自己的本行\u2026\u2026然而这次潜伏似乎才是命运之轮的开始。",
+          "target_id": 1359,
+          "pic": "http://f2.kkmh.com/image/170808/qceddpkz9.webp",
+          "type": 2,
+          "title": "极品辣妈好V5",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170413/xsc55q4tv.webp-w180.w",
+            "grade": 1,
+            "nickname": "有鹿文化",
+            "reg_type": "author",
+            "id": 38864302
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "一纸契约，一千万赎金，她沦为恶魔总裁的贴身近侍！曾经的千金小姐，如今的提线玩偶，他想尽办法折磨她，只为让她生下一个男孩，亲手报复她们家？！为逃狼窝，她学媚术，献香汗，誓要查清到底是谁在操纵她的人生\u2026\u2026【左岸卡漫授权/应版权方要求，此作品需支付KK币阅读 责编：腻腻】",
+          "target_id": 1066,
+          "pic": "http://f2.kkmh.com/image/170510/8bvsarfwz.webp",
+          "type": 2,
+          "title": "豪门小老婆",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170413/zv0n1yapi.webp-w180.w",
+            "grade": 1,
+            "nickname": "左岸卡漫",
+            "reg_type": "author",
+            "id": 38863842
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "林墨白生平最幸运与最不幸的是同一件事：一不小心偷窥了宋清潇，得知了他最见不得光的秘密。从此以后，他追，她逃\u2026\u2026他压制，她反抗\u2026\u2026他沦陷，她开始了逆袭之路，最终反压成功！功成名就，林墨白给自己的爱情作了总结：最狗血的邂逅，最波折的过程，最完美的结局！【云端漫画授权/每周一、四更新 应版权方要求，此作品需支付KK币阅读 责编：漠漠】",
+          "target_id": 1079,
+          "pic": "http://f2.kkmh.com/image/170511/e19hmmvec.webp",
+          "type": 2,
+          "title": "帝少别太猛",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170421/lapdggzba.webp-w180.w",
+            "grade": 1,
+            "nickname": "云端漫画",
+            "reg_type": "author",
+            "id": 39268167
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "一场爱与梦冒险\u2026\u2026是男仆还是热血侦探？是江洋大盗还是美女\u201c主人\u201d？迷雾一层层的解开，从琉星的VV学院的奇特异能，到九月的黑月铁骑们魅影闪现，十月、沧月、玄月、贪狼、莉莉丝稀疏登场\u2026\u2026纽约篇、燕国篇精彩不断\u2026\u2026千年前的卡伦卡亚命运渐渐解开\u2026\u2026（19篇番外陆续更新中\u2026\u2026）",
+          "target_id": 1182,
+          "pic": "http://f2.kkmh.com/image/170630/k83fjn3yg.webp",
+          "type": 2,
+          "title": "偷星九月天",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "奇幻",
+            "少年"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170707/8e0wqis5w.webp-w180.w",
+            "grade": 1,
+            "nickname": "周洪滨+小松",
+            "reg_type": "author",
+            "id": 82914546
+          },
+          "label_id": 25
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/279",
+      "style": 2,
+      "title": "等待免费看"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 14,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "夏启泰是一名大学生，小时候父母由于交通事故去世。他的姐姐夏星雨是一名成功的风险投资企业家，姐弟两人从小相依为命，但是启泰对姐姐有无法说出的秘密？！【独家/每周一更新或支付KK币抢先看 责编：HONG】",
+          "target_id": 1360,
+          "pic": "http://f2.kkmh.com/image/170809/bw7oodfmx.webp",
+          "type": 2,
+          "title": "不平衡的三角关系",
+          "recommended_text": "姐姐不能告诉我的秘密？！",
+          "likes_count": 718399,
+          "label_text": "剧情",
+          "comments_count": 8767,
+          "label_text_color": "#ffffff",
+          "category": ["成人"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170809/b1yzgny7e.webp-w180.w",
+            "grade": 1,
+            "nickname": "LIM DALL YOUNG+LEE SOO HYEN",
+            "reg_type": "author",
+            "id": 86650568
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff73b9",
+          "description": "少女与\u201c少女\u201d的羁绊，涤荡心灵的日常与\u201c非日常\u201d。【作者：日更计划/叽菇 作品责编：杰罗 日更计划授权/每月1日、11日、21日更新 快看漫画责编：漠漠】",
+          "target_id": 996,
+          "pic": "http://f2.kkmh.com/image/170103/7vec6ibok.webp",
+          "type": 2,
+          "title": "少女消失之前",
+          "recommended_text": "少女与\u201c少女\u201d的羁绊",
+          "likes_count": 419978,
+          "label_text": "百合",
+          "comments_count": 7984,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "百合"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/161229/52ju2701z.webp-w180.w",
+            "grade": 1,
+            "nickname": "日更计划",
+            "reg_type": "author",
+            "id": 28963270
+          },
+          "label_id": 30
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "给你1000万，换你的女朋友！你会愿意吗？纯真少女惨被欠债男友出卖，沦为总裁的玩物，身体与灵魂的全面沦陷，情欲都市的十字路口，她又该何去何从呢？\r\n【独家/双周更（周一）  责编：33】",
+          "target_id": 1017,
+          "pic": "http://f2.kkmh.com/image/170216/08iair7wp.webp",
+          "type": 2,
+          "title": "恶魔式情调",
+          "recommended_text": "被男友出卖，又遇恶魔总裁？",
+          "likes_count": 9103941,
+          "label_text": "都市",
+          "comments_count": 380170,
+          "label_text_color": "#ffffff",
+          "category": [
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/160616/81rwrli9c.webp-w180.w",
+            "grade": 1,
+            "nickname": "柯小",
+            "reg_type": "author",
+            "id": 14776286
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "生活在你我身边的萌娘 不管你有没有发现 但是她们已经在入侵你们的世界了！【出品：微漫画，总监制：天空，编绘：萌尽，制作人：古吉  不定期更新  责编：zaku】",
+          "target_id": 670,
+          "pic": "http://f2.kkmh.com/image/151231/hlmop1ofh.webp",
+          "type": 2,
+          "title": "萌尽的萌娘",
+          "recommended_text": "万物皆可萌，万物皆是女朋友！",
+          "likes_count": 2159990,
+          "label_text": "爆笑",
+          "comments_count": 36383,
+          "label_text_color": "#ffffff",
+          "category": ["爆笑"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/151230/vqrie5we9.webp-w180.w",
+            "grade": 1,
+            "nickname": "微漫画合集",
+            "reg_type": "author",
+            "id": 5574462
+          },
+          "label_id": 5
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/215",
+      "style": 2,
+      "title": "男生福利站"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "一场来自于妹妹精心策划的算计，让她身败名裂；未婚夫被抢，还要被迫嫁给一夜情的对象。什么？原来她老公是\u2026\u2026",
+          "target_id": 1336,
+          "pic": "http://f2.kkmh.com/image/170803/mdxzbopft.webp",
+          "type": 2,
+          "title": "不嫁总裁嫁男仆",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170315/t3a5gkcac.webp-w180.w",
+            "grade": 1,
+            "nickname": "万画筒漫画",
+            "reg_type": "author",
+            "id": 37064047
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "畅销头部作品！情场失意的洛瑶瑶夜醉酒吧，还把翻手云覆手雨的黑道帝王当成牛郎给上了？那还不快跑！可是这么简单就能跑掉？太天真了！2年后，在中国第一企业做假期工，但她万万没想到这竟是噩梦的延续\u2026\u2026【授权/每周三更新 应版权方要求，此作品需支付KK币阅读 责编：夏天】",
+          "target_id": 1076,
+          "pic": "http://f2.kkmh.com/image/170510/d5i2nyck3.webp",
+          "type": 2,
+          "title": "纯情丫头火辣辣",
+          "recommended_text": "黑道帝王 电梯小姐",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160505/7ye9exo1z.webp-w180.w",
+            "grade": 1,
+            "nickname": "三福动漫",
+            "reg_type": "author",
+            "id": 11886401
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "3岁父亲失踪，15岁被挑断手筋，16岁母亲被害车祸身亡，19岁被亲叔叔陷害，22岁的时候被自己的新婚丈夫和闺蜜活活烧死。也许是老天同情，让她回到15岁重活一遭。前一世的低调隐忍，换来的是背叛与凄凉，这一世她偏要高调霸道，让欺负她的人不得善终！【万画筒漫画出品】【授权/每周二、五更新 责编：拉面】",
+          "target_id": 1054,
+          "pic": "http://f2.kkmh.com/image/170330/uvzxbr5gk.webp",
+          "type": 2,
+          "title": "重生豪门之强势归来",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170315/t3a5gkcac.webp-w180.w",
+            "grade": 1,
+            "nickname": "万画筒漫画",
+            "reg_type": "author",
+            "id": 37064047
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "一纸契约，他们闪速结婚。他宠她，疼她，让她成为天下所有女人艳慕的对象。当她拿着怀孕化验单，满脸幸福地站在他面前时，他却递上一张离婚协议书。她没要他给的天价补偿，净身出户。五年后，她挽着未婚夫挑选婚纱时，他忽然出现，将她拽到身边，霸道地说，\u201c老婆，我儿子说了，不想要后爹。",
+          "target_id": 1315,
+          "pic": "http://f2.kkmh.com/image/171012/tl54qnmau.webp",
+          "type": 2,
+          "title": "总裁的新妻",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "三次元",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170822/t8o929h7e.webp-w180.w",
+            "grade": 1,
+            "nickname": "剧能玩",
+            "reg_type": "author",
+            "id": 84002243
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "程一诺因出身不好被自己的姐姐欺负陷害，抢走了交往多年的男友，不屈服与命运的她本想靠着自己的聪明才智做一个娱乐记者，没想到第一次偷拍任务就拍到了自家老板？！这种失误当然得以身相许才能偿还了~",
+          "target_id": 1449,
+          "pic": "http://f2.kkmh.com/image/170831/52nu0a0fa.webp",
+          "type": 2,
+          "title": "帝豪老公太狂热",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "樱前线动漫，图|肉丸子，文|韭菜",
+            "reg_type": "author",
+            "id": 88557411
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "一场意外，她和他睡在一起，两个月后她怀孕，他和她奉子成婚。本以为婚后的他和她会继续当路人，没想到他却将她宠上了天，唯独不让她出去上班。她气呼呼的找上了他，他笑眯眯的给她安排了一个工作，第二天她喜滋滋的去上任，发现工作牌上写着，姓名:秦芷爱，职位：顾余生的妻子。",
+          "target_id": 1446,
+          "pic": "http://f2.kkmh.com/image/170831/lt72lvji3.webp",
+          "type": 2,
+          "title": "隔墙有男神：强行相爱100天",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170914/ni1fkty25.webp-w180.w",
+            "grade": 1,
+            "nickname": "旷盛动漫",
+            "reg_type": "author",
+            "id": 9978677
+          },
+          "label_id": 15
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/226",
+      "style": 2,
+      "title": "KK币专区"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "超级怕鬼却要当阎王是什么悲伤的感受？使徒子老师超火爆力作第二季正式回归，胆小的阎王丫头不光变帅了，打怪姿势还更加酷炫了~东西方神魔齐上阵，给你超搞逗的欢乐体验！每周五晚八点第一时间独家更新，周六热推一整天！可爱阎王和你不见不散~【独家/每周五晚8点更新 责编：大树】\r\n",
+          "target_id": 848,
+          "pic": "http://f2.kkmh.com/image/170707/6r2pzk9pu.webp",
+          "type": 2,
+          "title": "阎王不高兴",
+          "recommended_text": "使徒子  爆笑  女阎王",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150421/i26y7dz2t.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "使徒子",
+            "reg_type": "weibo",
+            "id": 6
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "明明只是个群众演员，偏偏有颗抢镜的心。跟随一群逗逼的群演，展开一段搞笑，基情，奋斗，抢戏的故事......【授权/每周二更新 责编：HONG】",
+          "target_id": 1058,
+          "pic": "http://f2.kkmh.com/image/170324/mcq9aeejd.webp",
+          "type": 2,
+          "title": "就你戏最多",
+          "recommended_text": "无厘头 电影 龙套",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "日常",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/170329/fdfplspjj.webp-w180.w",
+            "grade": 1,
+            "nickname": "白海参（九月光合）",
+            "reg_type": "author",
+            "id": 27398349
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#bbc23a",
+          "description": "小僵尸第二季！寻找小青花瓷旅途正式开始！小僵尸的身世之谜、摘帽子后的小僵尸到底会变成什么样子，还没有姓名的男主为什么不是偶然捡到的小僵尸，吊足一年胃口的《诶？捡到一个小僵尸》第二季，填坑啦！（作者微博@虽虽酱 / 微信公众号：hulusui）\r\n 【授权/不定期更新 责编：漠漠】",
+          "target_id": 726,
+          "pic": "http://f2.kkmh.com/image/161220/aldi642uv.webp",
+          "type": 2,
+          "title": "诶？捡到一个小僵尸（第2季）",
+          "recommended_text": "治愈 搞笑 日常",
+          "likes_count": 0,
+          "label_text": "治愈",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "爆笑",
+            "治愈"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150424/v80ym9jkw.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "虽虽酱",
+            "reg_type": "weibo",
+            "id": 115688
+          },
+          "label_id": 23
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "表面上光鲜亮丽高贵霸气的新时代大佬们，实际上\u2026\u2026\r\n沉迷游戏痴汉会长的死宅？迷恋偶像无法自拔的流氓？万年萝莉脸的黑心芝麻包？一只武侠脑的智障儿童？还有一只御姐牌玛丽苏竟然是看上去最正常的一个？？？\r\n等等！说好的霸道总裁呢？！\r\n【独家/每周三，周五更新  责编：羊】",
+          "target_id": 1476,
+          "pic": "http://f2.kkmh.com/image/170918/dihkkj2tl.webp",
+          "type": 2,
+          "title": "总裁总宅不霸道",
+          "recommended_text": "总裁 爆笑 宅男",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170320/1quxvpbjs.webp-w180.w",
+            "grade": 1,
+            "nickname": "怪悟动漫",
+            "reg_type": "author",
+            "id": 37141723
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "《当神不让》编剧 刘北老师搞笑大作！江湖高手年年有，一代版本一代神，今年最强的少年用的却不是武功，而是...按摩术！？不服气的天下高手们前来挑战，却陆续被他的双手治愈了！【独家/每周四更新  责编：水原】",
+          "target_id": 1198,
+          "pic": "http://f2.kkmh.com/image/170701/yrplx2ggu.webp",
+          "type": 2,
+          "title": "无敌按摩师",
+          "recommended_text": "奇幻 武侠 爆笑",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "爆笑",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170701/4s5fiqn59.webp-w180.w",
+            "grade": 1,
+            "nickname": "SNCEL（主笔）+刘北（编剧）",
+            "reg_type": "author",
+            "id": 82380990
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "爆笑类经典热作！每天坑妹一万次的哥哥和暴走的妹妹相爱相杀，每一话让你笑到停不下来！搞笑又温情，画风轻松治愈！2016年度网络最火爆的搞笑漫画之一！【独家/连载中  责编：林早上】",
+          "target_id": 116,
+          "pic": "http://f2.kkmh.com/image/161214/q2v4vj8pg.webp",
+          "type": 2,
+          "title": "快把我哥带走",
+          "recommended_text": "兄妹  日常  爆笑",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "日常",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150829/9rjo49xh8.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "幽·灵（良筑良作）",
+            "reg_type": "weibo",
+            "id": 31
+          },
+          "label_id": 5
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/184",
+      "style": 2,
+      "title": "轻松欢乐逗"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 14,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#00dcde",
+          "description": "每周六准时预告下周重磅新作和上架时间！【栏目/独家  每周六更新 】",
+          "target_id": 583,
+          "pic": "http://f2.kkmh.com/image/161110/l4v1nmqur.webp",
+          "type": 2,
+          "title": "新作大放送",
+          "recommended_text": "快看新作早知道~",
+          "likes_count": 10513968,
+          "label_text": "栏目",
+          "comments_count": 1633940,
+          "label_text_color": "#ffffff",
+          "category": ["日常"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150616/yikz535od.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "快看漫画",
+            "reg_type": "weibo",
+            "id": 821
+          },
+          "label_id": 34
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#00dcde",
+          "description": "每周作品排行榜【栏目/每周一更新  责编：拉面】",
+          "target_id": 570,
+          "pic": "http://f2.kkmh.com/image/161129/5lw6qrrjf.webp",
+          "type": 2,
+          "title": "全民打榜",
+          "recommended_text": "谁是人气王，由你来定！",
+          "likes_count": 3212065,
+          "label_text": "栏目",
+          "comments_count": 756287,
+          "label_text_color": "#ffffff",
+          "category": ["日常"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150616/yikz535od.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "快看漫画",
+            "reg_type": "weibo",
+            "id": 821
+          },
+          "label_id": 34
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "这是一家历史悠久、名人辈出的贵族学校，号称只有想不到，没有他们不教！烹饪、美容、跳舞、蹦迪，花样翻出，带你跻身贵族世界，走向人生巅峰！赶快报名，免费试学哦~",
+          "target_id": 1314,
+          "pic": "http://f2.kkmh.com/image/170804/xvvjr8ejg.webp",
+          "type": 2,
+          "title": "贵族技校",
+          "recommended_text": "走向贵族的必经之路！",
+          "likes_count": 634673,
+          "label_text": "爆笑",
+          "comments_count": 29302,
+          "label_text_color": "#ffffff",
+          "category": ["栏目"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150616/yikz535od.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "快看漫画",
+            "reg_type": "weibo",
+            "id": 821
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ffba15",
+          "description": "感谢大家对快看漫画的支持，我们会越来越精彩๑\u2022 . \u2022๑",
+          "target_id": 78,
+          "pic": "http://f2.kkmh.com/image/141213/z92nieubd.jpg",
+          "type": 2,
+          "title": "快看世界团队",
+          "recommended_text": "快看福利活动都在这",
+          "likes_count": 4937093,
+          "label_text": "官方",
+          "comments_count": 2196563,
+          "label_text_color": "#ffffff",
+          "category": [
+            "日常",
+            "栏目"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150616/yikz535od.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "快看漫画",
+            "reg_type": "weibo",
+            "id": 821
+          },
+          "label_id": 20
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/247",
+      "style": 2,
+      "title": "快看栏目组"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "宰相府的千金卫霓风路见不平，帮助了一个美少年，而这个美少年竟和自己有着千年的宿命纠缠。暗处，仙族与魔族的亘古恩怨正悄悄涌起，世界危亡的关键竟然系在她这个小姑娘的身上？让美少年心动的\u201c她\u201d，真实身份究竟是什么？少女又为何成为两股势力漩涡的中心呢？。\u201c千年之前，我错过了你，这次我不会再放手了。\u201d【独家/每周五更新 责编：大树】",
+          "target_id": 1503,
+          "pic": "http://f2.kkmh.com/image/170919/tfoc2eyjd.webp",
+          "type": 2,
+          "title": "君风霓歌",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170919/wfqvr95wr.webp-w180.w",
+            "grade": 1,
+            "nickname": "南乔（百神社）",
+            "reg_type": "author",
+            "id": 89452961
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ffaf14",
+          "description": "聪慧霸气的掌门之女，青楼偶遇潇洒爱撩的名门公子，本以为是良缘缔结，却不想是孽缘交织······此情应是长相守，你若无\u201c情\u201d我便休。爆笑与虐心并存的古风恋爱，画风超唯美！【独家/每周六更新 责编：M】",
+          "target_id": 927,
+          "pic": "http://f2.kkmh.com/image/161220/0347s8oiy.webp",
+          "type": 2,
+          "title": "盛世清曲",
+          "recommended_text": "武侠  恋爱  恩仇",
+          "likes_count": 0,
+          "label_text": "励志",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["古风"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170109/abo05u7cc.webp-w180.w",
+            "grade": 1,
+            "nickname": "小球（主笔）+快看漫画团队",
+            "reg_type": "author",
+            "id": 29971071
+          },
+          "label_id": 39
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#be32ff",
+          "description": "这是一个不可思议的世界。七国并立，百家争鸣。墨家擅长机关术，所造工具精妙程度直追机甲。道家修炼精神力，传奇人物庄子能将精神之力化作鲲鹏，扶摇直飞九千里。儒家提升书生意气，感悟世间道理时感悟天地，能借用天地间风火雷电的力量。当第一缕春风吹进楚国时，故事，就从这里开始！【授权连载/因作者原因暂时停更】",
+          "target_id": 1247,
+          "pic": "http://f2.kkmh.com/image/170803/hu32ikbnq.webp",
+          "type": 2,
+          "title": "不可思议的战国",
+          "recommended_text": "奇幻  古风",
+          "likes_count": 0,
+          "label_text": "穿越",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160505/7ye9exo1z.webp-w180.w",
+            "grade": 1,
+            "nickname": "三福动漫",
+            "reg_type": "author",
+            "id": 11886401
+          },
+          "label_id": 18
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#00beff",
+          "description": "离家出走的少爷因不慎落水，误入像书中描绘一样桃花盛开，与时代隔绝的桃花源。那里没有纷争和压力，人与人相处和睦，景色犹如仙境，一切都显得很完美\u2026\u2026但他总觉得有哪里不对劲。而这桃花源背后是否隐藏着什么？【豆腐APP授权/每周四更新 作者：凌猫 责编：漠漠】",
+          "target_id": 968,
+          "pic": "http://f2.kkmh.com/image/161125/5qdg29i4s.webp",
+          "type": 2,
+          "title": "桃花源记之雨泽",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "彩虹",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "剧情",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160303/7g8ckj444.webp-w180.w",
+            "grade": 1,
+            "nickname": "豆腐",
+            "reg_type": "author",
+            "id": 8785704
+          },
+          "label_id": 7
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#f05523",
+          "description": "画风绝美的宫斗短篇集，讲述大周后宫佳人们的沉浮起落。紫奥城四四方方的天，框住了那些女子的一生，也框住了她们的心。或得势受宠，或落寞凄婉，都只为得一人真心。却是一入宫门深似海，从此萧郎是路人。【夏天岛授权/完结 】",
+          "target_id": 674,
+          "pic": "http://f2.kkmh.com/image/161220/40kx8hu00.webp",
+          "type": 2,
+          "title": "甄嬛传·叙花列",
+          "recommended_text": "宫斗  人性  剧情",
+          "likes_count": 0,
+          "label_text": "宫斗",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "完结",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160107/n8nigumnu.webp-w180.w",
+            "grade": 1,
+            "nickname": "魏莹/夏天岛+左小翎/夏天岛",
+            "reg_type": "author",
+            "id": 4289674
+          },
+          "label_id": 37
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "月老居然是个绝色美男？！酒疯惹事，误将人间姻缘打乱，联手孟婆穿越各个时代纠正孽缘，重寻真爱。【独家/停更中 责编：林早上】",
+          "target_id": 942,
+          "pic": "http://f2.kkmh.com/image/160930/dgnxr045c.webp",
+          "type": 2,
+          "title": "尘缘错",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160816/gjgohgk8x.webp-w180.w",
+            "grade": 1,
+            "nickname": "星空社",
+            "reg_type": "author",
+            "id": 10978521
+          },
+          "label_id": 25
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/147",
+      "style": 2,
+      "title": "古风侠情"
+    },
+    {
+      "action_type": 0,
+      "item_type": 7,
+      "action": "",
+      "title": "和你一起 让评论区更好",
+      "banners": [{
+        "target_app_url": "",
+        "good_price": "",
+        "sub_title": "",
+        "special_list_url": "",
+        "target_id": 30774,
+        "pic": "http://f2.kkmh.com/image/170711/jaqz9owsg.webp",
+        "type": 3,
+        "target_package_name": "",
+        "hybrid_url": "",
+        "target_web_url": "",
+        "target_title": "",
+        "id": 2125,
+        "request_id": "-1",
+        "good_alias": "",
+        "chapter_count": 1
+      }]
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#be32ff",
+          "description": "古风类榜单总热度第一名！现代小萝莉家里从天而降了一个超帅的古代锦衣卫！缺失父母关怀的小萝莉把他当成了最亲近的人，竟要当他的童养媳？！表面傲娇冷漠挑剔的他，却越来越放不下这个小家伙...画风超级赞的养成系古风恋爱！\r\n【独家/每周五更新   责编：林早上】",
+          "target_id": 709,
+          "pic": "http://f2.kkmh.com/image/161220/idr1o1juw.webp",
+          "type": 2,
+          "title": "我男票是锦衣卫",
+          "recommended_text": "穿越 恋爱 古风",
+          "likes_count": 0,
+          "label_text": "穿越",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "古风"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/160201/rna6levqw.webp-w180.w",
+            "grade": 1,
+            "nickname": "虹君",
+            "reg_type": "author",
+            "id": 6835950
+          },
+          "label_id": 18
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": " 备受家人宠爱的鬼马萝莉在16岁生日那天，被空降家中的腹黑明星\u201c哥哥\u201d夺走家庭地位！？原来，两人之前就有过恩怨纠葛，一场爆笑的兄妹乱斗从此拉开序幕\u2026\u2026【独家/每周三更新  责编：33】",
+          "target_id": 1504,
+          "pic": "http://f2.kkmh.com/image/170919/6grzxdl85.webp",
+          "type": 2,
+          "title": "明星老哥请出招！",
+          "recommended_text": "腹黑 恋爱 兄妹",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170919/xtltod6tk.webp-w180.w",
+            "grade": 1,
+            "nickname": "mika小柴犬",
+            "reg_type": "author",
+            "id": 89453959
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "细腻的画风和感情，101个恋爱故事，为你娓娓道来。【授权不定期更新  责编：牛奶】",
+          "target_id": 79,
+          "pic": "http://f2.kkmh.com/image/150530/54judr5je.jpg",
+          "type": 2,
+          "title": "101个恋爱故事",
+          "recommended_text": "恋爱 治愈 小故事",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["恋爱"],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150421/uelm8ugiz.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "\u203bkid岁",
+            "reg_type": "weibo",
+            "id": 47124
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "\u201c我忘了所有数学公式，只记得你曾经爱我。\u201d如果再见面要留下更多眼泪，还不如带着遗憾分别。曾经深爱的校园恋人，消失六年后重新出现！明明相爱的两个人，为何久别重逢却要形同陌路？一段长达12年的宿命虐恋，即将开启。【独家/每周三更新  责编：林早上】",
+          "target_id": 882,
+          "pic": "http://f2.kkmh.com/image/170716/c49ujkfdn.webp",
+          "type": 2,
+          "title": "你曾经爱我",
+          "recommended_text": "恋爱 都市 剧情",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "剧情"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/161222/uou1o38v0.webp-w180.w",
+            "grade": 1,
+            "nickname": "Sheabo千本（主笔）+快看漫画团队",
+            "reg_type": "author",
+            "id": 15817523
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "他，戴上眼镜是沉默冷峻的高中生，摘下眼镜是浪荡不羁的夜店王子。女主同时爱上他们，想不到竟是同一人？画风超绝美，男主帅到令人窒息！引爆你的少女心！\r\n【独家/每周四更新  责编：33】",
+          "target_id": 616,
+          "pic": "http://f2.kkmh.com/image/161220/1uljkyrx7.webp",
+          "type": 2,
+          "title": "朝花惜时",
+          "recommended_text": "变装  校园  爱情",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/151118/mp9tgmb7u.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "壳小杀／夏天岛+左小翎／夏天岛",
+            "reg_type": "author",
+            "id": 4513952
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "他有一个无论如何都要见到的人，她有一个无论如何都要解开的误会。他们是分别十年的青梅竹马，在儿时居住地的大学再次相遇。这次他们决定把握机会传达心意。【独家/10月5日起每周四更新或支付KK币抢先看 责编：楚宁】",
+          "target_id": 1495,
+          "pic": "http://f2.kkmh.com/image/170915/cl88vdz52.webp",
+          "type": 2,
+          "title": "犬系男子恋爱中",
+          "recommended_text": "恋爱 日常 治愈",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170919/4xyc2g8s8.webp-w180.w",
+            "grade": 1,
+            "nickname": "作者：coco 提供方：comico",
+            "reg_type": "author",
+            "id": 89453676
+          },
+          "label_id": 44
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/129",
+      "style": 2,
+      "title": "在这秀恩爱"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 14,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "根据顶级援交女的真实事件改编。姐姐为抚养妹妹踏入风尘，不幸卷入权利道德的旋涡丧生，妹妹决定进入这个黑暗世界，寻找真相。这部激情而不色情的漫画，深度剖析人性，揭露社会阴暗角落里为生存身不由己的群体。你愿意做正直的便宜货，还是高贵的垃圾？寻找震撼心灵有深度漫画的读者，不要错过！！\r\n【独家/每周五更新  责编：Uncle】",
+          "target_id": 693,
+          "pic": "http://f2.kkmh.com/image/170105/2e8cr7uxu.webp",
+          "type": 2,
+          "title": "头牌名媛",
+          "recommended_text": "",
+          "likes_count": 24931038,
+          "label_text": "都市",
+          "comments_count": 412488,
+          "label_text_color": "#ffffff",
+          "category": [
+            "成人",
+            "都市"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170314/wxl2mav9u.webp-w180.w",
+            "grade": 1,
+            "nickname": "韩东圩+尹仁完+秉秀氏",
+            "reg_type": "author",
+            "id": 37027243
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "作者（三井君+卡里）凭借此作获得金龙奖铜奖！遭受校园欺凌的丑小鸭，整容逆袭成女神后重返校园，开启惊心动魄的复仇计划。涉及的校园暴力话题，在网络上掀起热议狂潮！超经典现象级作品，已完结，新人必看！【独家/完结   责编：33】",
+          "target_id": 311,
+          "pic": "http://f2.kkmh.com/image/170428/cthmo2buz.webp",
+          "type": 2,
+          "title": "复仇高中",
+          "recommended_text": "校园丑小鸭的女神逆袭之路",
+          "likes_count": 17484755,
+          "label_text": "剧情",
+          "comments_count": 1398583,
+          "label_text_color": "#ffffff",
+          "category": [
+            "完结",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150421/pvn0g8g8p.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "卡里",
+            "reg_type": "weibo",
+            "id": 118037
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff73b9",
+          "description": "百合公寓里合租着四位性格各异的女孩，专栏作家Jane和她的大学生女友璇子，时装设计师肖玥和她一心想攻略的日本模特朝仓明里。这里有欢笑、泪水，也有争吵和迷惘，最重要的是：这糖真的好甜！【授权/每周六更新 作者：河伯 责编：漠漠】",
+          "target_id": 987,
+          "pic": "http://f2.kkmh.com/image/161223/zejl9te0r.webp",
+          "type": 2,
+          "title": "百合公寓",
+          "recommended_text": "",
+          "likes_count": 907055,
+          "label_text": "百合",
+          "comments_count": 12818,
+          "label_text_color": "#ffffff",
+          "category": [
+            "都市",
+            "百合"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170906/42un92szh.webp-w180.w",
+            "grade": 1,
+            "nickname": "河伯",
+            "reg_type": "author",
+            "id": 28710573
+          },
+          "label_id": 30
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "3岁父亲失踪，15岁被挑断手筋，16岁母亲被害车祸身亡，19岁被亲叔叔陷害，22岁的时候被自己的新婚丈夫和闺蜜活活烧死。也许是老天同情，让她回到15岁重活一遭。前一世的低调隐忍，换来的是背叛与凄凉，这一世她偏要高调霸道，让欺负她的人不得善终！【万画筒漫画出品】【授权/每周二、五更新 责编：拉面】",
+          "target_id": 1054,
+          "pic": "http://f2.kkmh.com/image/170315/eqkoh6dys.webp",
+          "type": 2,
+          "title": "重生豪门之强势归来",
+          "recommended_text": "前世隐忍换来今世强势回归",
+          "likes_count": 7427825,
+          "label_text": "恋爱",
+          "comments_count": 166637,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170315/t3a5gkcac.webp-w180.w",
+            "grade": 1,
+            "nickname": "万画筒漫画",
+            "reg_type": "author",
+            "id": 37064047
+          },
+          "label_id": 15
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/190",
+      "style": 2,
+      "title": "情感都市"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "曾经温柔可爱的青梅竹马，长大却变成超可恶的霸道王子！某天突然被他带到摄影棚，还要和他饰演恋人？！接吻？共浴？？床戏？？？这究竟是什么奇怪的摄影企划啊！！！！抖S霸道王子和小白兔的羞耻游戏，轻轻吻上去，你是我的私有物啦！【独家/完结或支付KK币抢先看 责编：半石】",
+          "target_id": 1089,
+          "pic": "http://f2.kkmh.com/image/170421/stlssm83e.webp",
+          "type": 2,
+          "title": "霸道王子的绝对命令",
+          "recommended_text": "恋爱  抖s王子",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["恋爱"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "Akua Uruu",
+            "reg_type": "author",
+            "id": 39279594
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "恋爱类总榜热度TOP3力作！阴郁少女遇见超帅吸血鬼，只要女主一流血，吸血鬼就会用他的舌头舔舐伤口，使其愈合。有一天女主来了大姨妈....！！！又帅又蠢萌的吸血鬼会随时温暖你，愿意用生命守护你！！少女们千万不要错过这部苏到炸的作品！！【独家/每周三更新 责编：Uncle】",
+          "target_id": 708,
+          "pic": "http://f2.kkmh.com/image/170206/tiroy0up0.webp",
+          "type": 2,
+          "title": "你的血很甜",
+          "recommended_text": "",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "完结"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/160202/hkeeozhze.webp-w180.w",
+            "grade": 1,
+            "nickname": "LEE NARAE",
+            "reg_type": "author",
+            "id": 6657560
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "\u201c压抑千年的欲望，我来调教！\u201d最帅美男花道士遇上了蠢萌的千年狐少女，究竟该如何调教？2017最爆笑的奇幻漫画，千万别错过！【独家/每周六更新或支付KK币抢先看 责编：Uncle 】",
+          "target_id": 1073,
+          "pic": "http://f2.kkmh.com/image/170415/tipiykdoc.webp",
+          "type": 2,
+          "title": "花道士",
+          "recommended_text": "奇幻  爆笑",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "高龙镐+金文敬",
+            "reg_type": "author",
+            "id": 38783287
+          },
+          "label_id": 25
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "28岁的高寒竟然穿越回十年前，和18岁的自己抢女友？!明明是同一个人，性格却完全不一样！高寒的女友究竟会怎么选择？【独家/每周六更新或支付KK币抢先看 责编：HONG】",
+          "target_id": 1159,
+          "pic": "http://f2.kkmh.com/image/170622/nnkz6gdms.webp",
+          "type": 2,
+          "title": "我的两个他",
+          "recommended_text": "恋爱  脑洞  奇幻",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "奇幻"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170622/i39p3cha4.webp-w180.w",
+            "grade": 1,
+            "nickname": "shiraishi yomo",
+            "reg_type": "author",
+            "id": 81762646
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#1e4691",
+          "description": "黑暗小巷的尽头，有一家生意冷淡的照明商店，每天都有奇怪的人进出。老板对于他们的来访一点都不惊讶，却警告一个常来店里买灯泡的女孩，小心那些奇怪的人······这些人身上到底发生了什么？【独家/完结     责编：吴半石】",
+          "target_id": 1004,
+          "pic": "http://f2.kkmh.com/image/170123/sziw811d3.webp",
+          "type": 2,
+          "title": "照明商店",
+          "recommended_text": "恐怖 悬疑 感动",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": ["灵异"],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "姜草",
+            "reg_type": "author",
+            "id": 30271902
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "人与狗互换，将会发生什么爆笑情节？【授权/完结  责编：喵二】",
+          "target_id": 4,
+          "pic": "http://f2.kkmh.com/image/150608/wr2rbrbiu.jpg",
+          "type": 2,
+          "title": "一条狗",
+          "recommended_text": "爆笑  使徒子  讽刺",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "完结",
+            "少年"
+          ],
+          "user": {
+            "pub_feed": 1,
+            "avatar_url": "http://f2.kkmh.com/image/150421/i26y7dz2t.jpg-w180.webp",
+            "grade": 1,
+            "nickname": "使徒子",
+            "reg_type": "weibo",
+            "id": 6
+          },
+          "label_id": 25
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/130",
+      "style": 2,
+      "title": "完结佳作"
+    },
+    {
+      "bg_color": null,
+      "action_type": 10,
+      "item_type": 4,
+      "more_flag": true,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#00beff",
+          "description": "\u201c校草，你说室友跟我穿同款是几个意思？\u201d\r\n\u201c这不是同款，是情侣装。\u201d\r\n\u201c校草你再这样天天跟我卖腐我弯了你负责啊？\u201d\r\n\u201c我负责。\u201d\r\n\u201c你还能养我一辈子啊？\u201d\r\n\u201c养，一辈子。\u201d\r\n忠犬校草攻掰弯三观不正受的欢脱甜文。\r\n嘿嘿嘿。\u2026\u2026",
+          "target_id": 1239,
+          "pic": "http://f2.kkmh.com/image/170809/a6fx9wlvy.webp",
+          "type": 2,
+          "title": "校草室友有剧毒",
+          "recommended_text": "5折刷完才够爽",
+          "likes_count": 0,
+          "label_text": "彩虹",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "彩虹",
+            "三次元",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170822/t8o929h7e.webp-w180.w",
+            "grade": 1,
+            "nickname": "剧能玩",
+            "reg_type": "author",
+            "id": 84002243
+          },
+          "label_id": 7
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "新学期又开始啦~\r\n软乎乎的棉花糖邂逅香郁的卡布奇诺~\r\n谱写蜜糖色的恋爱方程：棉花糖X卡布奇诺=？！！！\r\n蜜糖味道的她与巧克力色的他又会有怎样甜蜜碰撞呢？！！！\r\n蜜糖表示就算是蜜糖色的恋爱也不是那么简单~",
+          "target_id": 1354,
+          "pic": "http://f2.kkmh.com/image/170803/9g8d5374f.webp",
+          "type": 2,
+          "title": "蜜糖方程式",
+          "recommended_text": "吐血折扣",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "黑红鬼姬/漫咖",
+            "reg_type": "author",
+            "id": 84015204
+          },
+          "label_id": 44
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "一场精心设计的豪门盛宴，未婚夫为了得到心爱的女人，把她送到了他小叔的床上。\r\n记者扑门而入。 \u201c请问，陆总，你们是什么关系？\u201d 陆沐擎优雅的搂住她的肩膀，温润而笑，反问：\u201c我们睡了，你说是什么关系？\u201d\r\n\u201c请问炎小姐，陆先生不是你未婚夫的小叔吗?你们怎么会睡在一起。\u201d 炎景熙靠在陆沐擎的怀中，笑容妍妍：\u201c未婚夫很差劲，我劈腿了，没看出来吗？\u201d\r\n记者们离开后，她和他击掌为盟，她说：\u201c谢谢你帮我虐渣",
+          "target_id": 1368,
+          "pic": "http://f2.kkmh.com/image/170902/nq71ryyqu.webp",
+          "type": 2,
+          "title": "指染成婚",
+          "recommended_text": "好看死了！！",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "都市",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170822/t8o929h7e.webp-w180.w",
+            "grade": 1,
+            "nickname": "剧能玩",
+            "reg_type": "author",
+            "id": 84002243
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "一位桀骜不驯的神秘少女，兼修各系魔法，丝毫不在意羽琉璃学院的重重风纪，她打破了规矩，挑战各种不公平，更为这个传统而古老的魔法学院带来了不小的变化。",
+          "target_id": 1298,
+          "pic": "http://f2.kkmh.com/image/170825/tn9w2qj46.webp",
+          "type": 2,
+          "title": "灼灼琉璃夏",
+          "recommended_text": "折扣超给力",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "奇幻",
+            "校园"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "http://f2.kkmh.com/image/170421/lapdggzba.webp-w180.w",
+            "grade": 1,
+            "nickname": "云端漫画",
+            "reg_type": "author",
+            "id": 39268167
+          },
+          "label_id": 25
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "与大部分以女性为幼教的幼儿园不同，\u201d爱心幼儿园\u201c主要由超级花美男幼教来担任，培养出拥有\u201d两型人格\u201c的孩子，也就是，同时拥有女性的细腻、观察力与男性的独立、责任心。不同年龄层的孩子分别由性格及魅力迥异的花美男老师负责。",
+          "target_id": 1364,
+          "pic": "http://f2.kkmh.com/image/170814/b012dh4nq.webp",
+          "type": 2,
+          "title": "花美男幼儿园",
+          "recommended_text": "一言不合就5折",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "爆笑"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "Boncomics1688",
+            "reg_type": "author",
+            "id": 86704189
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "绝色舞姬梅可儿，为对司空邈一见钟情，心甘情愿化身书童陪伴左右，从此踏上保护公子贞操之路！",
+          "target_id": 1236,
+          "pic": "http://f2.kkmh.com/image/170816/yz2nyj4kk.webp",
+          "type": 2,
+          "title": "公子不要啊！",
+          "recommended_text": "5折看整本",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [
+            "恋爱",
+            "古风",
+            "总裁"
+          ],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 1,
+            "nickname": "动漫堂",
+            "reg_type": "author",
+            "id": 83642081
+          },
+          "label_id": 15
+        }
+      ],
+      "guide_text": "",
+      "action": "topic_new/discovery_module_list/251",
+      "style": 2,
+      "title": "半价读整本"
+    },
+    {
+      "bg_color": "",
+      "action_type": 0,
+      "item_type": 19,
+      "more_flag": false,
+      "topics": [
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "多次登上每周排行榜第一名宝座！  不可一世的血族王子，恋上卑微血仆少女。一场禁锢与占有的鼠猫游戏，让你欲罢不能的血色之恋，轻轻咬上一口，你就是我的私有物。超美吸血鬼题材漫画。【独家/每周六更新 责编：珉xi 】",
+          "target_id": 906,
+          "pic": "http://f2.kkmh.com/image/161212/hvast066o.webp",
+          "type": 2,
+          "title": "甜美的咬痕",
+          "recommended_text": "恋爱 奇幻",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#bbc23a",
+          "description": "高富帅暖男捡到只性别不明的软萌小狐狸。成年后，小狐狸为爱变身亭亭玉立的少女与他再续前缘。绝对萌翻你的治愈养成系，超甜！超萌！超虐狗！【独家/每周一更新 责编：半石】",
+          "target_id": 711,
+          "pic": "http://f2.kkmh.com/image/161212/p7p48tawz.webp",
+          "type": 2,
+          "title": "捡到只小狐狸",
+          "recommended_text": "恋爱 奇幻 治愈",
+          "likes_count": 0,
+          "label_text": "治愈",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 23
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "他，戴上眼镜是沉默冷峻的高中生，摘下眼镜是浪荡不羁的夜店王子。女主同时爱上他们，想不到竟是同一人？画风超绝美，男主帅到令人窒息！引爆你的少女心！\r\n【独家/每周四更新  责编：33】",
+          "target_id": 616,
+          "pic": "http://f2.kkmh.com/image/161220/1uljkyrx7.webp",
+          "type": 2,
+          "title": "朝花惜时",
+          "recommended_text": "恋爱 校园",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "身高180+的软妹恋上169的冰山总裁。谁说女追男隔层纱？女巨人的甜虐追爱史，扑倒冰山总裁不是梦！独特的设定，和其他充满套路的总裁漫不一样，看完第一话就停不下来！都市浪漫轻喜剧神作！【独家/每周六更新  责编：M】",
+          "target_id": 835,
+          "pic": "http://f2.kkmh.com/image/170718/7rmmtd392.webp",
+          "type": 2,
+          "title": "女巨人也要谈恋爱",
+          "recommended_text": "恋爱 剧情",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "家中天降裸身美男子，竟然能操控冰雪？！于是财迷女主把他当成了赚钱机器！相处之中逐渐爱上彼此，但雪男却拥有无法恋爱的体质，他们该如何突破阻碍、追求真爱？【独家/每周日更新 责编：牛奶】",
+          "target_id": 1005,
+          "pic": "http://f2.kkmh.com/image/170113/hd4mc3s5t.webp",
+          "type": 2,
+          "title": "雪男",
+          "recommended_text": "恋爱 奇幻",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 25
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#1e4691",
+          "description": "她出现之处，定有该死之人。传言只要她跟你说话或对你做奇怪的动作，不久后那个人就会必死无疑\u2026\u2026环环相扣的反转剧情，绝对让你忍不住去看下去！【独家/每周六更新 责编：半石】",
+          "target_id": 698,
+          "pic": "http://f2.kkmh.com/image/161220/3b20c385m.webp",
+          "type": 2,
+          "title": "西街44号",
+          "recommended_text": "灵异 悬疑",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#be32ff",
+          "description": "古风类榜单总热度第一名！现代小萝莉家里从天而降了一个超帅的古代锦衣卫！缺失父母关怀的小萝莉把他当成了最亲近的人，竟要当他的童养媳？！表面傲娇冷漠挑剔的他，却越来越放不下这个小家伙...画风超级赞的养成系古风恋爱！\r\n【独家/每周五更新   责编：林早上】",
+          "target_id": 709,
+          "pic": "http://f2.kkmh.com/image/161220/idr1o1juw.webp",
+          "type": 2,
+          "title": "我男票是锦衣卫",
+          "recommended_text": "恋爱 古风 穿越",
+          "likes_count": 0,
+          "label_text": "穿越",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 18
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#10beaa",
+          "description": "少男少女同住一个屋檐下，一同历经青春懵懂和成长烦恼，彼此鼓励、渐生爱意。画风温馨的超人气少女漫，体会青春悸动的纯爱萌芽，这一部就够！【独家/每周二更新，责编：牛奶】",
+          "target_id": 766,
+          "pic": "http://f2.kkmh.com/image/161214/ic0pkr0jo.webp",
+          "type": 2,
+          "title": "怦然心动",
+          "recommended_text": "恋爱 剧情 青春",
+          "likes_count": 0,
+          "label_text": "青春",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 41
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "武力值MAX的道场继承人\u2014\u2014向小满，为了追男神，决定江湖洗手，转校做一个安安静静的柔弱女子。而未曾想到的是，踏入校园第一天，男神还没追到，却因超凡的战斗力，被学校不良少年误认为男神。究竟小满能否成为男神心中的理想型，顺利转变现有的画风呢？【独家/每周四更新 责编：半石】",
+          "target_id": 991,
+          "pic": "http://f2.kkmh.com/image/161226/th1gzi9gn.webp",
+          "type": 2,
+          "title": "当校霸爱上学霸",
+          "recommended_text": "恋爱 校园",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 44
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#5397d6",
+          "description": "短篇合集，讲述一场自来水污染导致人类出现的奇奇怪怪的疾病。细思极恐，高能慎入！看作者的脑洞能有多大！【授权/每周五更新 责编：拉面】",
+          "target_id": 699,
+          "pic": "http://f2.kkmh.com/image/161212/bywdt3rar.webp",
+          "type": 2,
+          "title": "自来水之污",
+          "recommended_text": "灵异 脑洞",
+          "likes_count": 0,
+          "label_text": "脑洞",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 26
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "为了离家上学，18岁少女不得不跟青梅竹马展开同居生活，却没想到第一天就被对方壁咚强吻！这难道都是竹马的计划？心跳加速的18岁同居即将开始！【独家/每周二更新  责编：Uncle】\r\n",
+          "target_id": 1007,
+          "pic": "http://f2.kkmh.com/image/170122/vbcyaje5o.webp",
+          "type": 2,
+          "title": "18，要不要",
+          "recommended_text": "恋爱 校园",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 44
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "超级怕鬼却要当阎王是什么悲伤的感受？使徒子老师超火爆力作第二季正式回归，胆小的阎王丫头不光变帅了，打怪姿势还更加酷炫了~东西方神魔齐上阵，给你超搞逗的欢乐体验！每周五晚八点第一时间独家更新，周六热推一整天！可爱阎王和你不见不散~【独家/每周五晚8点更新 责编：大树】\r\n",
+          "target_id": 848,
+          "pic": "http://f2.kkmh.com/image/170707/6r2pzk9pu.webp",
+          "type": 2,
+          "title": "阎王不高兴",
+          "recommended_text": "奇幻 爆笑",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "现象级超经典作品，在整容游戏App上美化自己的照片，现实中脸就会跟着变美！但每一次改变都要付出相应的代价，可能会伤害你的朋友、恋人、家人！这样的App你愿意使用吗？连载一年长期霸榜TOP3，亿万超火爆热度，新人必看！  \r\n【独家/每周六更新  责编：33 】",
+          "target_id": 544,
+          "pic": "http://f2.kkmh.com/image/170711/2ug4aks71.webp",
+          "type": 2,
+          "title": "整容游戏",
+          "recommended_text": "奇幻 剧情",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "甜到腻的短梗漫，恩爱情侣间的逗比日常~只要恩爱秀得好，幸福生活少不了！【授权/每周日更新 责编：珉xi】",
+          "target_id": 793,
+          "pic": "http://f2.kkmh.com/image/170804/ls89s5u7g.webp",
+          "type": 2,
+          "title": "大圣和小夭",
+          "recommended_text": "日常 爆笑",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "关于职场的都市浪漫故事，萧艾艾醉酒后意外与高中学生会长\u201c同床共枕\u201d，而他竟是公司总裁，暗中帮助职场中屡屡受挫的她。腹黑霸道总裁与倔强单纯女职员，职场与情场波折却浪漫的故事。【独家/每周四更新 责编：林早上】",
+          "target_id": 869,
+          "pic": "http://f2.kkmh.com/image/170619/s8jpeb4jv.webp",
+          "type": 2,
+          "title": "与爱有关",
+          "recommended_text": "恋爱 总裁 剧情",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#1e4691",
+          "description": "原汁原味的民间\u201c诡\u201d故事短篇集合。·明明是真实到令人心悸的事件，却能戳中你内心最柔软的部分，让你感动······【独家/每周四更新    责编：33】\r\n",
+          "target_id": 754,
+          "pic": "http://f2.kkmh.com/image/161220/xevidjo96.webp",
+          "type": 2,
+          "title": "枪爷讲诡事",
+          "recommended_text": "灵异 悬疑",
+          "likes_count": 0,
+          "label_text": "悬疑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 32
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6e68ff",
+          "description": "遭受家暴的叶籽，与儿时遭遇失亲、惺惺相惜的玩伴高航再次相遇，想重回儿时记忆的叶籽，却遭遇了高航的厌恶。【独家/每周二更新 责编：M】",
+          "target_id": 873,
+          "pic": "http://f2.kkmh.com/image/170726/sauboofun.webp",
+          "type": 2,
+          "title": "给我哭",
+          "recommended_text": "彩虹 剧情",
+          "likes_count": 0,
+          "label_text": "剧情",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 17
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "被男票坑蒙拐骗领了证，开始了不情不愿的婚后\u201c合法同居\u201d？！抗拒婚姻的女主VS霸道又神经的男主，爆笑又有爱的夫妻生活日常！秀恩爱的最高境界，是让你分分钟也想结婚，高虐慎入！【独家/每周日更新  责编：33】\r\n",
+          "target_id": 90,
+          "pic": "http://f2.kkmh.com/image/170406/2v8o1r3ah.webp",
+          "type": 2,
+          "title": "合法同居",
+          "recommended_text": "恋爱 爆笑",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "\u201c我忘了所有数学公式，只记得你曾经爱我。\u201d如果再见面要留下更多眼泪，还不如带着遗憾分别。曾经深爱的校园恋人，消失六年后重新出现！明明相爱的两个人，为何久别重逢却要形同陌路？一段长达12年的宿命虐恋，即将开启。【独家/每周三更新  责编：林早上】",
+          "target_id": 882,
+          "pic": "http://f2.kkmh.com/image/170716/c49ujkfdn.webp",
+          "type": 2,
+          "title": "你曾经爱我",
+          "recommended_text": "恋爱 剧情",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "福特携都市浪漫爱情新作华丽回归！顶级调香师邂逅甜美女白领，关于香水命中注定的浪漫爱恋。你身上的香味让我欲罢不能~【独家/每周三更新 责编：牛奶】",
+          "target_id": 1023,
+          "pic": "http://f2.kkmh.com/image/170210/609sopzeu.webp",
+          "type": 2,
+          "title": "浪漫香气",
+          "recommended_text": "都市 恋爱",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#7c5099",
+          "description": "奇异事件，真实记录！这些发生在你身边的故事，结局总是让人意想不到！中短篇悬疑故事合辑，喜欢反转刺激的你不要错过！【独家/周三周日更新  责编：大树】",
+          "target_id": 178,
+          "pic": "http://f2.kkmh.com/image/161220/9ctpn97wn.webp",
+          "type": 2,
+          "title": "怪奇实录",
+          "recommended_text": "灵异",
+          "likes_count": 0,
+          "label_text": "灵异",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 16
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "你相信世界上有这么一种能力吗？只要点击手机上的\u201c反转\u201d按钮，就可以改变别人的人生，然而代价却是\u2026\u2026当女主播何希得到了这颗夏娃的苹果时，等待她的究竟是重生还是毁灭？【独家/每周日更新 责编：33】",
+          "target_id": 1015,
+          "pic": "http://f2.kkmh.com/image/170123/33h3huvuw.webp",
+          "type": 2,
+          "title": "反转现实",
+          "recommended_text": "都市 奇幻",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#fa6499",
+          "description": "恋爱类总榜热度第一名少女漫！当红人气鲜肉被曝毕业证做假仅考零分，回大学重修遇见贫穷土鳖学霸女，地位不对等的恋爱会有结果么？超强剧情，快来体验最心动，最浪漫，最苏最撩的爱情！！\r\n【独家/每周一更新  责编：33 】\r\n",
+          "target_id": 363,
+          "pic": "http://f2.kkmh.com/image/161220/6bti83qdn.webp",
+          "type": 2,
+          "title": "零分偶像",
+          "recommended_text": "恋爱",
+          "likes_count": 0,
+          "label_text": "恋爱",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 15
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "给你1000万，换你的女朋友！你会愿意吗？纯真少女惨被欠债男友出卖，沦为总裁的玩物，身体与灵魂的全面沦陷，情欲都市的十字路口，她又该何去何从呢？\r\n【独家/双周更（周一）  责编：33】",
+          "target_id": 1017,
+          "pic": "http://f2.kkmh.com/image/170712/g0bpcz04n.webp",
+          "type": 2,
+          "title": "恶魔式情调",
+          "recommended_text": "都市 总裁",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#3750ff",
+          "description": "儿时的意外邂逅，让新登基的皇帝对长生不老的巫祝\u2014\u2014阿萝念念不忘，再次相遇，年轻气盛的新皇是否能俘获阿萝的芳心？一段美妙的奇幻爱情故事即将上演【独家/每周六更新  责编：M】",
+          "target_id": 1053,
+          "pic": "http://f2.kkmh.com/image/170314/kugpiqwpn.webp",
+          "type": 2,
+          "title": "巫祝少女",
+          "recommended_text": "恋爱 古风 奇幻",
+          "likes_count": 0,
+          "label_text": "奇幻",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 25
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#ff7300",
+          "description": "高冷的喵星人原则：看心情。\r\n家里的狗和主人，都是喵主子的玩物！\r\n\r\n【授权/每周二更新  责编：水原】",
+          "target_id": 68,
+          "pic": "http://f2.kkmh.com/image/170104/f0uqibb4l.webp",
+          "type": 2,
+          "title": "就喜欢你看不惯我又干不掉我的样子",
+          "recommended_text": "日常 爆笑",
+          "likes_count": 0,
+          "label_text": "爆笑",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 5
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "无法说谎的男主，阴差阳错致使女主失恋又失业，而他竟是她的新上司？这部撩人总裁漫，集合霸道总裁的湿身诱惑、把妹大法、夺爱争斗，轰炸你的少女心！【独家/每周二更新，责编：M】\r\n",
+          "target_id": 688,
+          "pic": "http://f2.kkmh.com/image/161220/g48udmrks.webp",
+          "type": 2,
+          "title": "不说谎恋人",
+          "recommended_text": "都市 恋爱",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "她是一直被误认为男生的黑道少女，他是同为黑道世家的纯良少爷。十年后，\u201c假小子\u201d变成冷酷无情的大姐头，他们会以怎样的方式重遇？怀着绅士之心点开，你一定以为这是个H漫\u2026\u2026【独家/每周五更新  责编:33】",
+          "target_id": 667,
+          "pic": "http://f2.kkmh.com/image/170110/wnsosvdxv.webp",
+          "type": 2,
+          "title": "论不良少女调教方式",
+          "recommended_text": "恋爱 校园",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 44
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#6400fa",
+          "description": "改编自橙光作品《逆袭之星途闪耀》\r\n娱乐圈小助理抉择人生，步步逆袭成为闪耀巨星？光鲜亮丽的屏幕背后，有着多少艰辛泪水？收获了事业，会连爱情一起收获么？面对三个优质美男，她又如何抉择？......\r\n【独家/每周二周更，责编：楚宁】",
+          "target_id": 898,
+          "pic": "http://f2.kkmh.com/image/161220/v75vktpzy.webp",
+          "type": 2,
+          "title": "逆袭之星途闪耀",
+          "recommended_text": "恋爱 剧情 都市",
+          "likes_count": 0,
+          "label_text": "都市",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 11
+        },
+        {
+          "subtitle_type": 0,
+          "label_color": "#44e36e",
+          "description": "方塘偶遇一直很在意的阿树，二人成为同窗和挚友。画风清新的纯情校园漫画，友达以上，各种小情节，让你YY不止！\r\n【独家/每周六更新  责编：M】",
+          "target_id": 173,
+          "pic": "http://f2.kkmh.com/image/161220/vo035iqlz.webp",
+          "type": 2,
+          "title": "同学关系？",
+          "recommended_text": "彩虹 校园",
+          "likes_count": 0,
+          "label_text": "校园",
+          "comments_count": 0,
+          "label_text_color": "#ffffff",
+          "category": [],
+          "user": {
+            "pub_feed": 0,
+            "avatar_url": "",
+            "grade": 0,
+            "nickname": "",
+            "reg_type": "",
+            "id": 0
+          },
+          "label_id": 44
+        }
+      ],
+      "guide_text": "",
+      "action": "",
+      "style": 2,
+      "title": "为你推荐"
+    }
+  ]},
+  "message": "ok"
+}
